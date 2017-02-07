@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mind in the cloud</title><link href="http://localhost:8000/" rel="alternate"></link><link href="http://localhost:8000/feeds/rick-veenstra.atom.xml" rel="self"></link><id>http://localhost:8000/</id><updated>2017-04-04T00:00:00+02:00</updated><entry><title>PSD2 vs GDPR: will we keep our privacy or not? Two major EU regulations on collision course</title><link href="http://localhost:8000/2017/04/psd2-vs-gdpr-will-we-keep-our-privacy-or-not-two-major-eu-regulations-on-collision-course/" rel="alternate"></link><published>2017-04-04T00:00:00+02:00</published><author><name>Rick Veenstra</name></author><id>tag:localhost:8000,2017-04-04:2017/04/psd2-vs-gdpr-will-we-keep-our-privacy-or-not-two-major-eu-regulations-on-collision-course/</id><summary type="html">&lt;p&gt;In an &lt;a class="reference external" href="https://www.linkedin.com/pulse/psd2-gdpr-regulations-collission-course-krzysztof-trojan"&gt;article&lt;/a&gt; that recently appeared on &lt;a class="reference external" href="https://www.linkedin.com/pulse/discover"&gt;LinkedIn Pulse&lt;/a&gt;, one Krzysztof Trojan wrote about the conflics between two major European legislations that have quite some impact on the finance world.&lt;/p&gt;
+&lt;p&gt;The Revised Payment Services Directive (PSD2) will require financial institutions (especially banks) to open access to the personal information related to the accounts to third parties the institution has no contractual agreement with. The GDPR however forbids sharing the information with third parties; basically it is the individual to give consent and to provide the data to the data processor - not other processors.&lt;/p&gt;
+&lt;p&gt;It is weird to read how two legislations from the EU can address the topic of privacy and consent from such opposing angles. I suppose it'll take some years of lawsuits and appeals up to the &lt;a class="reference external" href="https://europa.eu/european-union/about-eu/institutions-bodies/court-justice_en"&gt;Court of Justice of the European Union&lt;/a&gt; (CJEU) to settle this. Do we have to be prepared for some suprises like the &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Max_Schrems"&gt;Schrems case&lt;/a&gt;, where the CJEU invalidated the entire US-EU Safe Harbour arrangement?&lt;/p&gt;
+&lt;p&gt;You can find the article titled &lt;a class="reference external" href="&amp;lt;https://www.linkedin.com/pulse/psd2-gdpr-regulations-collission-course-krzysztof-trojan&amp;gt;`_"&gt;PSD2 and GDPR regulations on collision course?&lt;/a&gt; on &lt;a class="reference external" href="https://www.linkedin.com/pulse/psd2-gdpr-regulations-collission-course-krzysztof-trojan"&gt;LinkedIn&lt;/a&gt;. Thought provoking, as the comments belo the artice show.&lt;/p&gt;
+</summary><category term="EU-GDPR"></category></entry><entry><title>The roles of the owner of an IoT device - UML</title><link href="http://localhost:8000/2016/10/the-roles-of-the-owner-of-an-iot-device-uml/" rel="alternate"></link><published>2016-10-20T00:00:00+02:00</published><author><name>Rick Veenstra</name></author><id>tag:localhost:8000,2016-10-20:2016/10/the-roles-of-the-owner-of-an-iot-device-uml/</id><summary type="html">&lt;p&gt;In a previous blog post we mentioned the different roles of the consumer owning an IoT device. In this article we will try to illustrate these roles in UML Use Case diagrams. The Use Case diagram is one of the several types of models that are part of the Unified Modeling Language (see wikipedia). These are used to describe the interactions of actors with a piece of software.&lt;/p&gt;
+&lt;p&gt;We will start with the most basic model. An actor (the consumer) uses a service (via an internet connection). This service is provided by --you guessed it-- a service provider.&lt;/p&gt;
+&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/9aa714e6.png" /&gt;
+&lt;p&gt;Pretty basic, even if you are not into UML.&lt;/p&gt;
+&lt;p&gt;The next step we add the fact that the service depends on data provided by the consumer. He now has two roles: that of the user of the service and that of the provider of data. In the Use Case diagram we show this by adding the role above the icon of each actor.&lt;/p&gt;
+&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/e5c85a33.png" /&gt;
+&lt;div class="section" id="the-role-consumer"&gt;
+&lt;h2&gt;The role &lt;em&gt;'consumer'&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;For someone who is used to talk about services in a software context, a little confusion creeps in. The label &lt;em&gt;'consumer'&lt;/em&gt; in an economical/marketing context is quite clear. It is used for individual people purchasing goods. In the world of digital services, the label &lt;em&gt;'consumer'&lt;/em&gt; is used in a more generic way. In this case it is used for any object (usually some kind of software) that uses the output of a service. Since we somewhat blend these two meanings we will now use the name &amp;quot;John Doe&amp;quot; for the individual that uses services in the Internet of Things. One of his &lt;em&gt;roles&lt;/em&gt; is &lt;em&gt;&amp;lt;&amp;lt;service consumer&amp;gt;&amp;gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Back to the diagrams. The data provided by the customer (now identified as &amp;quot;John Doe&amp;quot;) is stored and processed by the Service. These are two separate activities, so we model the service as a group:&lt;/p&gt;
+&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/5538696a.png" /&gt;
+&lt;p&gt;We now have a basic model of a generic service that is provided over the internet by a service provider, that depends on data provided by the end user.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="data-processing"&gt;
+&lt;h2&gt;Data processing&lt;/h2&gt;
+&lt;p&gt;We'll add one additional element. In the previous diagram John Doe uses 'data processing'. While technically correct, an average John Doe is not likely attracted to use 'data processing'. In business manegement lingo, the service provides 'added value' to John Doe; something (not strictly defined) that he recognises as having value for him.&lt;/p&gt;
+&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/5b7c793b.png" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="paying-for-the-service"&gt;
+&lt;h2&gt;Paying for the service&lt;/h2&gt;
+&lt;p&gt;Well, you apparently are still with us. Up to this point things have been straight forward. Now we add somthing a little complicating. No service can exisist on it's own. Providing a service comes at a cost. In the context of digital services and the Internet of Things this at least requires computer equipment and network connections. So we factor in than John Doe pays the Service Provider for delivering the service.&lt;/p&gt;
+&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/c88f7b7f.png" /&gt;
+&lt;p class="well well-sm"&gt;h1. Sidestep: paying for a free service?
+Now you may object: I'm using quite a lot of web applications that I do not have to pay for. Say
+Google, Twitter, Facebook, you name 'em. So why adding this last step? Well, There is a lot to say
+about 'free' services. That is subject for another post (or even a series). But let me assure you:
+you are actually paying for these services, one way or another. It might not be by actually
+transfering money (as with subscription based services), but you are generating value for the service
+provider while using the service:&lt;/p&gt;
+&lt;ol class="well well-sm arabic simple"&gt;
+&lt;li&gt;Your usage of the services adds to the momentum and userbase for the service provider´s
+paid services which cover for the cost of the free services as well.&lt;/li&gt;
+&lt;li&gt;You generate content you license to the provider (this happens more often than you think;
+read the fine print in the end user agreements or whatever fancy name they gave these legal
+statements).&lt;/li&gt;
+&lt;li&gt;You allow the service provider to use your data to build profiles that it will monetize to its
+own discretion, i.e. targeted advertising. This case is covered by the saying &lt;em&gt;&amp;quot;if you don´t pay f
+or the product, you&lt;/em&gt; &lt;strong&gt;are&lt;/strong&gt; &lt;em&gt;the product&amp;quot;&lt;/em&gt;. Usually this involves Personally Identifiable
+Information (PII for short).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This reasoning implies that we need to add another role for our dear John Doe: the data subject&lt;/p&gt;
+&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/36558d3b.png" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="next-how-the-data-is-generated"&gt;
+&lt;h2&gt;Next: How the data is generated&lt;/h2&gt;
+&lt;p&gt;We have described a model for a generic service that is using data provided by the consumer, John Doe. This model can be applied to many web applications. The data is usually generated interactively by the user via the application's web interface, from another application using a published API or by means of an app on a mobile device. But what we call the 'Internet of Things' extends this model. Human interaction is replaced by smart devices that autonomously generate data.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-device"&gt;
+&lt;h2&gt;The device&lt;/h2&gt;
+&lt;p&gt;We will first focus on the device and leave the service out (for now).&lt;/p&gt;
+&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/e4982023.png" /&gt;
+&lt;p&gt;Again a very basic start, but not for long.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="sidestep-the-device-and-it-s-software-a-k-a-firmware"&gt;
+&lt;h2&gt;Sidestep: The device and it's software a.k.a. firmware&lt;/h2&gt;
+&lt;p&gt;All devices in the Internet of Things are built as a combination of hardware and software. The time that his software was 'burned' into the hardware and could only be changed by physically interacting with the hardware has long gone by. The original &lt;a class="reference external" href="https://en.wikipedia.org/wiki/EPROM"&gt;EPROMs&lt;/a&gt; could only be reprogrammed after erasing them by exposing the hardware to strong ultraviolet light. The introduction of &lt;a class="reference external" href="https://en.wikipedia.org/wiki/EEPROM"&gt;EEPROMs&lt;/a&gt; allowed electronic equipment to be reprogrammed electronically. Now nearly all devices have substantial amounts of non-volatile memory that holds the software that control the device's functions. This software can be usually be replaced remotely; the process is called 'flashing', named after &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Flash_memory"&gt;the type of memory involved&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-maintenance-burden"&gt;
+&lt;h2&gt;The maintenance burden&lt;/h2&gt;
+&lt;p&gt;Every device man has created requires maintenance. It's the law. Not a legal one, but a law of nature. &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Second_law_of_thermodynamics"&gt;The second law of thermodynamics&lt;/a&gt; to be precise. Everything in the universe tends to 'a state of maximum entropy', which is a physics scholar's lingo for 'chaos'. We all experience this daily: everything eventually breaks in parts. If you wait long enough, these parts break into smaller and smaller chunks, until only atoms are left. At least, that's the simplified version of the theory.&lt;/p&gt;
+&lt;p&gt;This maintenance burden comes with the ownership of any device. For a device in the world of IoT this burden comes in two areas: firmware and configuration. Firmware is actually just software, but tightly coupled to the hardware. Firmware is usually not intended to be installed or modified by the owner of the device as we are used to with our desktops and laptops. Depending of the functionality it has configuration settings that can be changed by the owner or user of the 'thing'. Configuration requires at least a basic understanding of the usage of the device and can be done wrong.&lt;/p&gt;
+&lt;p&gt;In our diagram we have to add the same actor John Doe a second time, but now in his new role of &amp;quot;device maintainer&amp;quot;:&lt;/p&gt;
+&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/63dd5c0f.png" /&gt;
+&lt;p&gt;As most of us know by now, software is rarely flawless. See &lt;a class="reference external" href="https://www.cs.tau.ac.il/~nachumd/horror.html"&gt;this link&lt;/a&gt; for some horror stories. Updating the operating system of our computers has become an annoying but unavoidable part of our digital lives. The same is (or better: should be) true for the semi-autonomous devices in the Internet of Things. One major problem is that software flaws or bugs are not always repaired. Once a device is sold, there is not much of an incentive for a device maker to maintain its software beyond the period the devices are actually being sold. Yet, in our diagram we need to add the maintanance of the device. Someone at least has to provide updated software to users of these devices.&lt;/p&gt;
+&lt;p&gt;So again we need a new role: the &amp;quot;firmware supplier&amp;quot;. Usually this role is performed by the IoT device supplier.&lt;/p&gt;
+&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/f3d47ae0.png" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-whole-picture"&gt;
+&lt;h2&gt;The whole picture&lt;/h2&gt;
+&lt;p&gt;Now it is time to combine the two diagrams we constructed:&lt;/p&gt;
+&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/980339a4.png" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;We just created a diagram showing the different roles involved in the use of a 'thing' in the Internet of Things. A device that gathers data about someone and uses a service to process the data for the owner into something that he percieves as valuable. What at first observation appears to be very simple, evolves into a model in which &lt;em&gt;John Doe performs no less than&lt;/em&gt; &lt;strong&gt;five&lt;/strong&gt; &lt;em&gt;different roles&lt;/em&gt;. And poor John thought he had only bought himself a 'thing'...&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="IoT"></category><category term="Internet of Things"></category><category term="UML"></category></entry><entry><title>a key difference between IoT and IoS</title><link href="http://localhost:8000/2016/05/a-key-difference-between-iot-and-ios/" rel="alternate"></link><published>2016-05-07T00:00:00+02:00</published><author><name>Rick Veenstra</name></author><id>tag:localhost:8000,2016-05-07:2016/05/a-key-difference-between-iot-and-ios/</id><summary type="html">&lt;p&gt;The buzz around the 'Internet of Things' is mainly caused because we seem
+to have passed a major tipping point. Cheap to produce Systems-on-a-Chip
+have reached levels of integration and computing power that enable running
+serious functionality combined with a full IP network stack. We're facing
+an explosion of inter-networked things. These things have mainly been
+extensions of concepts we have been familiar with for decades. Heart-rate
+monitors are not exactly a new idea; the form-factor of a watch and network
+connectivity have just extended a concept we've already known for decades.
+The same with security cameras, thermostats and light bulbs. But that is
+going to change rapidly. Who knows what brillant or downright amazing
+solutions will be conceived for problems we didn't know we had...&lt;/p&gt;
+&lt;p&gt;At the other side there has been an explosion of internet applications that
+can be accessed using well-defined and publicly available APIs. A myrad
+of interconnected applications has become available in recent years, mashed
+together like never before.&lt;/p&gt;
+&lt;div class="section" id="where-iot-and-ios-meet"&gt;
+&lt;h2&gt;Where IoT and IoS meet&lt;/h2&gt;
+&lt;p&gt;This is where the internet of things (IoT) and the internet of services
+(IoS)connect. These things are sensors, information processors and devices
+that enable interaction with the physical world. But their potential value
+is only really unleashed when their data and functionality is processed and
+enhanced by services. Sevices that are provided as web applications, more and
+more extended with a user interface built as an app for your smartphone.&lt;/p&gt;
+&lt;p&gt;In many cases these services are provided by the same company that sold you
+the device. Your purchase included these services; in fact a part of the
+bill covered the cost of the services. You paid a one-time fee. But many of
+these devices have a well-documented interface that can be handled by other
+services as well. Services that are extremely cheap or even free.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="but"&gt;
+&lt;h2&gt;But...&lt;/h2&gt;
+&lt;p&gt;Services have to be provided. Providing a service is an activity that
+requires funding, significant funding. Equipment, people and resources
+are still not avalable for free, at least not in countries that
+participate in the global economy. Providing a service has to create
+benefits for the provider. Tangible benefits such as monetary value or
+cash flow. Or intangible benefits, such as knowledge, a change in
+behaviour of people, future monetary benefits or whatever people may
+deem valuable. Companies are very creative in finding ways to generate
+financial revenues from these intangible benefits. There are myrads of services
+that require no fee from its users. But you nevertheless pay for them, in many
+cases by trading the one thing that has value to these companies. The one and
+only thing that only you can create and that does not require
+real effort: data about your and about your behaviour.&lt;/p&gt;
+&lt;p&gt;A service has a limited lifespan. Once you stop interacting with a service,
+it will cease to create benefits for the provider. If the provider terminates
+the service, it will cease to create benefits. If the provider ceases to
+exist and the service is not tranfered to another provider, the service
+will end and cease to create benefits.&lt;/p&gt;
+&lt;p&gt;Maybe the data the service has gathered remain valuable for the
+service provider. Regardless of rights the provider has establised in
+the terms of service, this value will degrade rapidly over time.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;One could consider a 'thing' in the context of the Internet of Things as
+something that provides one or more services. The consumer of this service
+usually is some other kind of 'service' in the Internet of Services.&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="IoT"></category><category term="Internet of things"></category></entry><entry><title>Installing Pelican</title><link href="http://localhost:8000/2016/05/installing-pelican/" rel="alternate"></link><published>2016-05-06T21:20:00+02:00</published><author><name>Rick Veenstra</name></author><id>tag:localhost:8000,2016-05-06:2016/05/installing-pelican/</id><summary type="html">&lt;p&gt;Just did a clean install of Pelican on a Linux Mint workstation. I'll try to document all the
+steps up to a working site in this article.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rick@ender ~/Documents/ $ mkdir blog
+rick@ender ~/Documents/ $ virtualenv blog
+rick@ender ~/Documents/ $ &lt;span class="nb"&gt;cd&lt;/span&gt; blog/
+rick@ender ~/Documents/ $ &lt;span class="nb"&gt;source&lt;/span&gt; bin/activate
+&lt;span class="o"&gt;(&lt;/span&gt;blog&lt;span class="o"&gt;)&lt;/span&gt;rick@ender ~/Documents/blog $ pip install pelican
+&lt;span class="o"&gt;(&lt;/span&gt;blog&lt;span class="o"&gt;)&lt;/span&gt;rick@ender ~/Documents/blog $ pip install Markdown
+&lt;span class="o"&gt;(&lt;/span&gt;blog&lt;span class="o"&gt;)&lt;/span&gt;rick@ender ~/Documents/blog $ pip install Typogrify
+&lt;span class="o"&gt;(&lt;/span&gt;blog&lt;span class="o"&gt;)&lt;/span&gt;rick@ender ~/Documents/blog $ pelican-quickstart
+&lt;span class="o"&gt;(&lt;/span&gt;blog&lt;span class="o"&gt;)&lt;/span&gt;rick@ender ~/Documents/blog $ git clone --recursive https://github.com/getpelican/pelican-plugins
+&lt;span class="o"&gt;(&lt;/span&gt;blog&lt;span class="o"&gt;)&lt;/span&gt;rick@ender ~/Documents/blog $ git clone --recursive https://github.com/getpelican/pelican-themes ./pelican-themes
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You now have a basic Pelican install to work with. The rest is just a matter of choosing your hosting option and read the fine manuals on &lt;a class="reference external" href="http://getpelican.com"&gt;getpelican.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;That's all folks!&lt;/p&gt;
+</summary><category term="blog"></category><category term="tech"></category></entry><entry><title>Lessons from Benjamin Zander's talk on TED 2008</title><link href="http://localhost:8000/2013/02/lessons-from-benjamin-zanders-talk-on-ted-2008/" rel="alternate"></link><published>2013-02-09T00:00:00+01:00</published><author><name>Rick Veenstra</name></author><id>tag:localhost:8000,2013-02-09:2013/02/lessons-from-benjamin-zanders-talk-on-ted-2008/</id><summary type="html">&lt;p&gt;Benjamin Zander is a world-famous classical orchestra conductor.
+During &lt;a class="reference external" href="http://www.ted.com/talks/benjamin_zander_on_music_and_passion.html"&gt;his talk at TED2008 on 'classical music and passion'&lt;/a&gt; he refers to
+a moment of 'enlightenment' as I would call it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I was 45 years old, I'd been conducting for 20 years, and I suddenly
+had a realization. The conductor of an orchestra doesn't make a
+sound. (...)&lt;/p&gt;
+&lt;p&gt;He depends, for his power, on his ability to make other people
+powerful. And that changed everything for me. It was totally life
+changing. (...)&lt;/p&gt;
+&lt;p&gt;I realized my job was to awaken possibility in other people. And of
+course, I wanted to know whether I was doing that. And you know how
+you find out? You look at their eyes. If their eyes are shining, you
+know you're doing it. (...)&lt;/p&gt;
+&lt;p&gt;If the eyes are not shining, you get to ask a question. And this is
+the question: who am I being, that my players' eyes are not shining?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Wow, now that's what I would call enlightenment. &amp;quot;My job is to awaken
+possibility is other people&amp;quot;. That resonates with me, deep inside.
+Servant leadership.&lt;/p&gt;
+&lt;p&gt;Benjamin extends this insight to parenthood, generalizes this to his
+vision of succes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We can do that with our children, too. Who am I being, that my
+children's eyes are not shining? That's a totally different world.&lt;/p&gt;
+&lt;p&gt;(...)&lt;/p&gt;
+&lt;p&gt;And you know, I have a definition of success. For me, it's very
+simple. It's not about wealth and fame and power. It's about how
+many shining eyes I have around me.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Notice how he phrases this. It's not &amp;quot;how am I &lt;em&gt;behaving&lt;/em&gt;, that their
+eyes are not shining?&amp;quot; but &amp;quot;how am I &lt;strong&gt;being&lt;/strong&gt;?&amp;quot; That's a far deeper way
+to look at it. Fundamental. Existential. &amp;quot;Who am I &lt;strong&gt;being&lt;/strong&gt;&amp;quot;? Who can I
+&lt;strong&gt;be&lt;/strong&gt; for others so that their eyes are shining?&lt;/p&gt;
+&lt;p&gt;This question shifts our focus. It's not primarily about &lt;strong&gt;doing&lt;/strong&gt;, it's
+all about &lt;strong&gt;being&lt;/strong&gt;. Because who we are is the source of our doing. Our
+identity, our views of who we are and our purpose in life, is the driver
+for all that we do. It also shifts our focus from ourselves to the
+other. Though we ask what &lt;strong&gt;we&lt;/strong&gt; are being, we define that in terms of
+our impact on others.&lt;/p&gt;
+&lt;p&gt;Who am I being...&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;that my spouse's eyes are not shining?&lt;/li&gt;
+&lt;li&gt;that my children's eyes are not shining?&lt;/li&gt;
+&lt;li&gt;that my colleague's eyes are not shining?&lt;/li&gt;
+&lt;li&gt;that my team's eyes are not shining?&lt;/li&gt;
+&lt;li&gt;that my congregation's eyes are not shining?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and we can extend this question to each and every relation we have in
+this life.&lt;/p&gt;
+</summary><category term="ted"></category><category term="faith"></category></entry><entry><title>Now</title><link href="http://localhost:8000/2013/01/now/" rel="alternate"></link><published>2013-01-28T21:30:00+01:00</published><author><name>Rick Veenstra</name></author><id>tag:localhost:8000,2013-01-28:2013/01/now/</id><summary type="html">&lt;p&gt;Yesterday is closed, finished, done. Nothing can be changed about what is passed. Whatever has happened stays happened. Forever. Only our memories can change. And they &lt;em&gt;will&lt;/em&gt; change, that's for sure. Because every time we revisit a memory we are in fact &lt;em&gt;re-creating&lt;/em&gt; it, &lt;em&gt;re-shaping&lt;/em&gt; it, changing it.&lt;/p&gt;
+&lt;p&gt;Tomorrow is uncertain. What we 'know for sure' about tomorrow is nothing more than an extrapolation of our past experiences. Which are uncertain by themselves, since our memories are volatile and unreliable.&lt;/p&gt;
+&lt;blockquote&gt;
+Yesterday is a memory, tomorrow is a dream; today is a gift, that's why it's called &amp;quot;present&amp;quot;.&lt;/blockquote&gt;
+&lt;p&gt;The only thing we have is today, now. Actually not even that much; all we have is just this very moment.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Now.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;No matter the circumstances or events that got us here. No matter whether we like it or not. No matter the path behind us or the path before us. We are right here, right now, and that's all we have. That's what we have to deal with, that's what we have to use.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;these circumstances; comfortable, hard or even painful&lt;/li&gt;
+&lt;li&gt;these people, whether we like them or not&lt;/li&gt;
+&lt;li&gt;this task, this job, this resonsibility, this opportunity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Whatever we may posess, whatever influence we may think we have, bottom line is that we have very little. Just now.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Now what? What are you going to do with what you do have?&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;em&gt;There's nothin' behind me and nothin' that ties me&lt;/em&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;em&gt;To somethin' that might have been true yesterday&lt;/em&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;em&gt;Tomorrow is open, right now it seems to be more than enough&lt;/em&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;em&gt;to just be here today&lt;/em&gt;&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;a class="reference external" href="http://www.metrolyrics.com/sweet-surrender-lyrics-john-denver.html"&gt;John Denver - Sweet Surrender&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+</summary><category term="quotes"></category></entry><entry><title>Every successful enterprise requires three men...</title><link href="http://localhost:8000/2013/01/Every_successful_enterprise_requires_three_men/" rel="alternate"></link><published>2013-01-26T11:20:00+01:00</published><author><name>Rick Veenstra</name></author><id>tag:localhost:8000,2013-01-26:2013/01/Every_successful_enterprise_requires_three_men/</id><summary type="html">&lt;!--  --&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Every successful enterprise requires three men - a
+dreamer, a businessman and a son-of-a-bitch&amp;quot; -Peter MacArthur&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://twitter.com/ptarkkonen/status/295095179155742720"&gt;Tweet from Petteri Tarkkonen&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This quote suggests that there are several distinct roles that have to
+be present in a group for any endeavour to be succesfull.&lt;/p&gt;
+&lt;p&gt;These tree roles correspond to those of the wizard, the king and the
+warrior that Tony Robbins used in his pattern of indirect negotiation
+during an intervention at &lt;a class="reference external" href="http://www.rmtcenter.com/creating-leadership-in-times-of-crisis/"&gt;a seminar on september 11th 2001&lt;/a&gt;.
+The only role that is missing is 'the fool'.&lt;/p&gt;
+&lt;p&gt;The fool is the only one that can redicule anyone, including the king,
+and go unpunished. This role is crucial in limiting unrealistic ambitions,
+yes-men and misleading advisors. With mild or not-so-mild humor he pulls
+you back into reality, gets both your feet firmly on the ground and
+maybe even slaps reality straight in your face.
+The role of the fool is extremely underappreciated in a corporate culture
+that relies on heavily paid consultants who do not dare to risk their precious
+billable hours by pinching illusions and unrealistc ambitions.&lt;/p&gt;
+&lt;p&gt;A former manager of mine used this mantra:&lt;/p&gt;
+&lt;blockquote&gt;
+You are either part of the solution or part of the problem.&lt;/blockquote&gt;
+&lt;p&gt;I would like to oppose this with another observation:&lt;/p&gt;
+&lt;blockquote&gt;
+If you cannot solve the problem you can still make good money by
+prolonging it.&lt;/blockquote&gt;
+&lt;p&gt;Still in many organisations external consultants are far better paid than
+regular staff.&lt;/p&gt;
+</summary><category term="quotes"></category></entry></feed>

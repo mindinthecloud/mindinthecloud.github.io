@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+        <title>  What is a 'smart' device?
+</title>
+        <meta charset="utf-8" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://localhost:8000/nl/">Mind in the cloud <strong>gedachten over het beheersen van IT risico&apos;s in een &lsquo;hyper-connected&rsquo; wereld</strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+        </ul></nav><!-- /#menu -->
+  
+  <div>
+    <p>&quot;This hospital bed is equipped with a smart device that stores all the
+patient's data.&quot; Just a phrase in a discussion about an imaginary
+case of interconnected devices, also know as <em>'The Internet of Things'</em>.
+This made me wonder: what is a 'Smart Device'?</p>
+<p>In this article I'll try to create some clarity around this concept.</p>
+<p>From the context one thing was clear: a smart device is just a 'thing'
+in the internet of things. A just slightly funny game of words that adds
+little to a better understanding of the concept. But the context of
+'internet' provides us at least with a first question to answer.</p>
+<dl class="docutils">
+<dt><em>Is a 'smart device' internetworked by itself?</em></dt>
+<dd>Should it have it's own IP network stack?</dd>
+</dl>
+<p>I tend to answer this by defining a smart device as accessible from the
+internet, be it by it's own IP stack or by means of some kind of gateway
+or bridge. This implies that one can transform a <em>'dumb device'</em> into a
+smart one by simply adding some kind of electronic circuitry that
+provides it with an IP network stack. This has been done for far over a
+decade by equipment called <a class="reference external" href="https://en.wikipedia.org/wiki/Terminal_server">terminal servers</a>
+(the traditional type, not the kind that made Citrix a big player in the
+corporate world). These devices provided access over IP to equipment that only had serial
+interfaces conforming to standards like <a class="reference external" href="https://en.wikipedia.org/wiki/RS-232">RS-232</a>
+or <a class="reference external" href="https://en.wikipedia.org/wiki/RS-422">RS-422</a>.</p>
+<p>With only this definition a simple sensor --like a thermometer--
+equipped with a serial interface and connected to a <a class="reference external" href="https://en.wikipedia.org/wiki/Terminal_server">terminal server</a>
+would qualify as a 'smart device'. We need to add another aspect.</p>
+<dl class="docutils">
+<dt><em>What makes a device 'smart'?</em></dt>
+<dd>...besides being internetworked?</dd>
+</dl>
+<p>For this aspect I would like to add two characteristics for a device to
+qualify as being 'smart':</p>
+<!-- #. it has to be able to store information that can be retrieved *upon request*. -->
+<ol class="arabic simple">
+<li>its functionality can be changed without any physical contact</li>
+<li>its functionality can be extended or modified beyond what was previously available</li>
+</ol>
+<p>Take for instance an IP-connected videocamera. The functionality of such
+a device can be modified, by nature the IP network stack at least. Maybe
+the focus can be adjusted as well, or it can tilt and pan on command. But
+I would not qualify is as smart, because its functionality is fixed. At
+least as long as there is no means of remotely loading it with new
+software. If the software code is 'frozen' in read-only memory and the
+device itself provides no means of altering the code without a physical
+connection I would consider such a device as merely 'programmable'.</p>
+<p>A game console on the other hand can very well be considered 'smart'. It
+is provided with writeable memory that
+can be loaded with functionality (programs) that can be retrieved from a
+remote location. It gets a little slippery here; ane can imagine edge
+cases like game consoles that only accept memory cards but have no
+network stack. But those are not internetworked and are disqualified from
+the 'internet of things'.</p>
+
+  </div>
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>
