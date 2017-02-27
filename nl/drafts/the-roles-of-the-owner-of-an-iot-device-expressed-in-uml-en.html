@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<title>Mind in the cloud - gedachten over het beheersen van IT risico&apos;s in een &lsquo;hyper-connected&rsquo; wereld</title>
+<meta name="description" content="" />
+<meta name="Author" content="Rick Veenstra" />
+
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/plugins/lt-ie9/html5.js"></script>
+  <script type="text/javascript" src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/plugins/lt-ie9/respond.min.js"></script>
+  <script type="text/javascript" src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/plugins/lt-ie9/excanvas.compiled.js"></script>
+<![endif]--> 
+
+<!-- GOOGLE FONTS -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Dosis:300,400" rel="stylesheet" type="text/css" />
+
+<!-- CSS framework overrides -->
+<link href="http://localhost:8000/theme/css/overrides.css" rel="stylesheet" type="text/css" />
+
+<!-- CORE CSS FRAMEWORK -->
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link href="http://localhost:8000/theme/css/linecons.css" rel="stylesheet" type="text/css" />
+
+<!-- PLUGINS -->
+<link href="http://localhost:8000/theme/css/superslides.css" rel="stylesheet" type="text/css" />
+<link href="http://localhost:8000/theme/css/owl.carousel.css" rel="stylesheet" type="text/css" />
+<link href="http://localhost:8000/theme/css/magnific-popup.css" rel="stylesheet" type="text/css" />
+
+<!-- CSS TEMPLATE -->
+<link href="http://localhost:8000/theme/css/reset.css" rel="stylesheet" type="text/css" />
+<link href="http://localhost:8000/theme/css/framework.css" rel="stylesheet" type="text/css" />
+<link href="http://localhost:8000/theme/css/typography.css" rel="stylesheet" type="text/css" />
+<link href="http://localhost:8000/theme/css/layout.css" rel="stylesheet" type="text/css" />
+
+<link href="http://localhost:8000/theme/css/blog.css" rel="stylesheet" type="text/css" />
+
+<link href="http://localhost:8000/theme/css/green.css" rel="stylesheet" type="text/css" />
+
+<!-- ICONS -->
+  <link rel="shortcut icon" href="/images/iconified/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/images/iconified/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/images/iconified/favicon.ico" type="image/x-icon" />
+
+<!-- mobile settings -->
+<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+
+<!-- Morenizr -->
+<script type="text/javascript" src="http://localhost:8000/theme/js/modernizr.min.js"></script>
+
+<!-- google authorship -->
+  </head>
+
+<body>
+
+<!-- Main Nav -->
+<header id="header" style="margin-top:0">
+
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+
+      <!-- Mobile Menu Button -->
+      <button id="mobileMenu" class="fa fa-bars" type="button" data-toggle="collapse" data-target=".navbar-collapse"></button>
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="http://localhost:8000/nl/index.html#">
+          <img src="http://localhost:8000/images/m-s_icon-white.png" alt="" width="50" height="50" />
+          <span class="hidden-xs">Mind in the cloud</span>
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <!-- Fullscreen Button - Unavailable for IE -->
+        <a href="#" class="btn-fullscreen"><i class="fa fa-external-link"></i></a>
+
+        <ul class="nav navbar-nav navbar-right">
+          
+		  <li><a href="http://localhost:8000/nl/index.html">Home</a></li>
+		  <li><a href="http://localhost:8000/nl/index.html#about">Over</a></li>
+		  <li><a href="http://localhost:8000/nl/index.html#work">Werk(en)</a></li>
+		  <li><a href="http://localhost:8000/nl/index.html#quick-blog">Recent</a></li>
+		  <li><a href="http://localhost:8000/nl/blog.html">Blog</a></li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <b class="caret"></b></a>
+              <ul class="dropdown-menu" style="background-color:#000">
+                <li style="background-color:#000"><a href="http://id-use.blogspot.nl/" target="_blank">Identity Ideas - André Koot</a></li>
+                <li style="background-color:#000"><a href="http://teusink.eu/" target="_blank">Joram Teusink</a></li>
+              </ul>
+            </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Languages <b class="caret"></b></a>
+			<ul class="dropdown-menu" style="background-color:#000">
+					<li  style="background-color:#000"><a href="http://localhost:8000">English</a></li>
+			</ul>
+		   </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+
+    </div>
+  </nav>
+</header>
+<!-- /Main Nav -->  <section id="blog">
+      <article class="container">
+
+          <div class="row">
+              <div class="left col-md-9">
+  <!-- article title -->
+  <header>
+      <h1>The roles of the owner of an IoT device, expressed in <span class="caps">UML</span></h1>
+    <small class="fsize13">
+      <!-- 2014-09-10 RVe removed Disqus counter
+      <a href="http://localhost:8000/nl/drafts/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml-en.html#disqus_thread" class="scrollTo label label-default light" data-disqus-identifier="drafts/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml-en.html"><i class="fa fa-comment-o"></i> ?? Comments</a>
+      -->
+      <span class="label label-default light">2016/10/20</span> 
+    </small>
+  </header>
+
+  <article class='content'>
+    <p>In a previous blog post we mentioned the different roles of the consumer owning an IoT device. In this article we will try to illustrate these roles in <span class="caps">UML</span> Use Case diagrams. The Use Case diagram is one of the several types of models that are part of the Unified Modeling Language (see wikipedia). These are used to describe the interactions of actors with a piece of&nbsp;software.</p>
+<p>We will start with the most basic model. An actor (the consumer) uses a service (via an internet connection). This service is provided by &#8212;you guessed it&#8212; a service&nbsp;provider.</p>
+<img alt="uml diagram" class="uml" src="http://localhost:8000/nl/images/5cea17f3.png" />
+<p>Pretty basic, even if you are not into <span class="caps">UML</span>.</p>
+<p>The next step we add the fact that the service depends on data provided by the consumer. He now has two roles: that of the user of the service and that of the provider of data. In the Use Case diagram we show this by adding the role above the icon of each&nbsp;actor.</p>
+<img alt="uml diagram" class="uml" src="http://localhost:8000/nl/images/411b5d41.png" />
+<div class="section" id="the-role-consumer">
+<h2>The role <em>&#8216;consumer&#8217;</em></h2>
+<p>For someone who is used to talk about services in a software context, a little confusion creeps in. The label <em>&#8216;consumer&#8217;</em> in an economical/marketing context is quite clear. It is used for individual people purchasing goods. In the world of digital services, the label <em>&#8216;consumer&#8217;</em> is used in a more generic way. In this case it is used for any object (usually some kind of software) that uses the output of a service. Since we somewhat blend these two meanings we will now use the name &#8220;John Doe&#8221; for the individual that uses services in the Internet of Things. One of his <em>roles</em> is <em>&lt;&lt;service consumer&gt;&gt;</em>.</p>
+<p>Back to the diagrams. The data provided by the customer (now identified as &#8220;John Doe&#8221;) is stored and processed by the Service. These are two separate activities, so we model the service as a&nbsp;group:</p>
+<img alt="uml diagram" class="uml" src="http://localhost:8000/nl/images/b9fa54df.png" />
+<p>We now have a basic model of a generic service that is provided over the internet by a service provider, that depends on data provided by the end&nbsp;user.</p>
+</div>
+<div class="section" id="data-processing">
+<h2>Data&nbsp;processing</h2>
+<p>We&#8217;ll add one additional element. In the previous diagram John Doe uses &#8216;data processing&#8217;. While technically correct, an average John Doe is not likely attracted to use &#8216;data processing&#8217;. In business manegement lingo, the service provides &#8216;added value&#8217; to John Doe; something (not strictly defined) that he recognises as having value for&nbsp;him.</p>
+<img alt="uml diagram" class="uml" src="http://localhost:8000/nl/images/cc856137.png" />
+</div>
+<div class="section" id="paying-for-the-service">
+<h2>Paying for the&nbsp;service</h2>
+<p>Well, you apparently are still with us. Up to this point things have been straight forward. Now we add somthing a little complicating. No service can exisist on it&#8217;s own. Providing a service comes at a cost. In the context of digital services and the Internet of Things this at least requires computer equipment and network connections. So we factor in than John Doe pays the Service Provider for delivering the&nbsp;service.</p>
+<img alt="uml diagram" class="uml" src="http://localhost:8000/nl/images/cb7d6d51.png" />
+<div class="section" id="sidestep-paying-for-a-free-service">
+<h3>Sidestep: paying for a free&nbsp;service?</h3>
+<p>Now you may object: I&#8217;m using quite a lot of web applications that I do not have to pay for. Say
+Google, Twitter, Facebook, you name &#8216;em. So why adding this last step? Well, There is a lot to say
+about &#8216;free&#8217; services. That is subject for another post (or even a series). But let me assure you:
+you are actually paying for these services, one way or another. It might not be by actually
+transfering money (as with subscription based services), but you are generating value for the service
+provider while using the&nbsp;service:</p>
+<ol class="arabic simple">
+<li>Your usage of the services adds to the momentum and userbase for the service provider´s
+paid services which cover for the cost of the free services as&nbsp;well.</li>
+<li>You generate content you license to the provider (this happens more often than you think;
+read the fine print in the end user agreements or whatever fancy name they gave these legal&nbsp;statements).</li>
+<li>You allow the service provider to use your data to build profiles that it will monetize to its
+own discretion, i.e. targeted advertising. This case is covered by the saying <em>&#8220;if you don´t pay f
+or the product, you</em> <strong>are</strong> <em>the product&#8221;</em>. Usually this involves Personally Identifiable
+Information (<span class="caps">PII</span> for&nbsp;short).</li>
+</ol>
+<p>This reasoning implies that we need to add another role for our dear John Doe: the data&nbsp;subject</p>
+<img alt="uml diagram" class="uml" src="http://localhost:8000/nl/images/95597d25.png" />
+</div>
+</div>
+<div class="section" id="next-how-the-data-is-generated">
+<h2>Next: How the data is&nbsp;generated</h2>
+<p>We have described a model for a generic service that is using data provided by the consumer, John Doe. This model can be applied to many web applications. The data is usually generated interactively by the user via the application&#8217;s web interface, from another application using a published <span class="caps">API</span> or by means of an app on a mobile device. But what we call the &#8216;Internet of Things&#8217; extends this model. Human interaction is replaced by smart devices that autonomously generate&nbsp;data.</p>
+</div>
+<div class="section" id="the-device">
+<h2>The&nbsp;device</h2>
+<p>We will first focus on the device and leave the service out (for&nbsp;now).</p>
+<img alt="uml diagram" class="uml" src="http://localhost:8000/nl/images/9cb82da1.png" />
+<p>Again a very basic start, but not for&nbsp;long.</p>
+</div>
+<div class="section" id="sidestep-the-device-and-it-s-software-a-k-a-firmware">
+<h2>Sidestep: The device and it&#8217;s software a.k.a.&nbsp;firmware</h2>
+<p>All devices in the Internet of Things are built as a combination of hardware and software. The time that his software was &#8216;burned&#8217; into the hardware and could only be changed by physically interacting with the hardware has long gone by. The original <a class="reference external" href="https://en.wikipedia.org/wiki/EPROM">EPROMs</a> could only be reprogrammed after erasing them by exposing the hardware to strong ultraviolet light. The introduction of <a class="reference external" href="https://en.wikipedia.org/wiki/EEPROM">EEPROMs</a> allowed electronic equipment to be reprogrammed electronically. Now nearly all devices have substantial amounts of non-volatile memory that holds the software that control the device&#8217;s functions. This software can be usually be replaced remotely; the process is called &#8216;flashing&#8217;, named after <a class="reference external" href="https://en.wikipedia.org/wiki/Flash_memory">the type of memory involved</a>.</p>
+</div>
+<div class="section" id="the-maintenance-burden">
+<h2>The maintenance&nbsp;burden</h2>
+<p>Every device man has created requires maintenance. It&#8217;s the law. Not a legal one, but a law of nature. <a class="reference external" href="https://en.wikipedia.org/wiki/Second_law_of_thermodynamics">The second law of thermodynamics</a> to be precise. Everything in the universe tends to &#8216;a state of maximum entropy&#8217;, which is a physics scholar&#8217;s lingo for &#8216;chaos&#8217;. We all experience this daily: everything eventually breaks in parts. If you wait long enough, these parts break into smaller and smaller chunks, until only atoms are left. At least, that&#8217;s the simplified version of the&nbsp;theory.</p>
+<p><span class="caps">OK</span>, you&#8217;ll have to wait a veeeeeery long time before your device turns into dust, but you get the picture. Anything man creates will degrade over time. Ignore your housecleaning chores long enough and your furniture will get covered with dust. We all have experience with electronic devices getting to behave erratic or not at all. We can&#8217;t prevent this degradation but we can (try to) postpone it by regular maintenance. Therefore our cars (mostly) get regular oil changes and while the tires evetually wear out we try to keep them balanced and sufficiently&nbsp;inflated.</p>
+<p>This maintenance burden comes with the ownership of <em>any</em> device. For a device in the world of IoT this burden comes in two areas: firmware and configuration. Firmware is actually just software, but tightly coupled to the hardware. Firmware is usually not intended to be installed or modified by the owner of the device as we are used to with our desktops and laptops. Depending of the functionality it has configuration settings that can be changed by the owner or user of the &#8216;thing&#8217;. Configuration requires at least a basic understanding of the usage of the device and can be done&nbsp;wrong.</p>
+<p>In our diagram we have to add the same actor John Doe a second time, but now in his new role of &#8220;device&nbsp;maintainer&#8221;:</p>
+<img alt="uml diagram" class="uml" src="http://localhost:8000/nl/images/e7c260a4.png" />
+<p>As most of us know by now, software is rarely flawless. See <a class="reference external" href="https://www.cs.tau.ac.il/~nachumd/horror.html">this link</a> for some horror stories. Updating the operating system of our computers has become an annoying but unavoidable part of our digital lives. The same is (or better: should be) true for the semi-autonomous devices in the Internet of Things. One major problem is that software flaws or bugs are not always repaired. Once a device is sold, there is not much of an incentive for a device maker to maintain its software beyond the period the devices are actually being sold. Yet, in our diagram we need to add the maintanance of the device. Someone at least has to provide updated software to users of these&nbsp;devices.</p>
+<p>So again we need a new role: the &#8220;firmware supplier&#8221;. Usually this role is performed by the IoT device&nbsp;supplier.</p>
+<img alt="uml diagram" class="uml" src="http://localhost:8000/nl/images/cc408099.png" />
+</div>
+<div class="section" id="the-whole-picture">
+<h2>The whole&nbsp;picture</h2>
+<p>Now it is time to combine the two diagrams we&nbsp;constructed:</p>
+<img alt="uml diagram" class="uml" src="http://localhost:8000/nl/images/8d5f3a30.png" />
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>We just created a diagram showing the different roles involved in the use of a &#8216;thing&#8217; in the Internet of Things. A device that gathers data about someone and uses a service to process the data for the owner into something that he percieves as valuable. What at first observation appears to be very simple, evolves into a model in which <em>John Doe performs no less than</em> <strong>five</strong> <em>different roles</em>. And poor John thought he had only bought himself a&nbsp;&#8216;thing&#8217;&#8230;</p>
+</div>
+
+  </article>
+
+  <div class="divider"><!-- lines divider --></div>
+
+  <!-- SOCIAL -->
+<p class="socials">
+    <a href="http://www.facebook.com/sharer/sharer.php?u=http://localhost:8000/drafts/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml-en.html" class="rounded-icon social fa fa-facebook" target="_blank" title="Share on Facebook"><!-- facebook --></a>
+    <a href="http://twitter.com/home?status=http://localhost:8000/drafts/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml-en.html" class="rounded-icon social fa fa-twitter" target="_blank" title="Share on Twitter"><!-- twitter --></a>
+    <a href="https://plus.google.com/share?url=http://localhost:8000/drafts/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml-en.html" class="rounded-icon social fa fa-google-plus" target="_blank" title="Share on Google+"><!-- google plus --></a>
+    <a href="http://pinterest.com/pin/create/link/?url==http://localhost:8000/drafts/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml-en.html" class="rounded-icon social fa fa-pinterest"  target="_blank" title="Share on Pinterest"><!-- pinterest --></a>
+    <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://localhost:8000/drafts/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml-en.html&title=&summary=&source=" class="rounded-icon social fa fa-linkedin" target="_blank" title="Share on Linkedin"><!-- linkedin --></a>
+</p>  
+
+  <!-- TAGS -->
+  <p class="fsize16"> Tags:
+  </p>
+
+  <hr /><!-- divider -->
+
+    <div id="comments" class="comments">
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_shortname = 'mindinthecloud-nl';
+        var disqus_identifier = "drafts/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml-en.html";
+        var disqus_title = "The roles of the owner of an IoT device, expressed in UML";
+        var disqus_url = "http://localhost:8000/nl/drafts/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml-en.html";
+        (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus</a>.</noscript>
+    </div>
+              </div>
+
+              <!-- SIDEBAR -->
+              <div class="right col-md-3">
+                  <!-- recent work -->
+                  <!-- categories -->
+                  <div class="widget">
+
+                      <h3>Categories</h3>
+
+                      <ul>
+                          <li><a href="http://localhost:8000/nl/category/geloof.html"><i class="fa fa-dot-circle-o"></i> geloof</a></li>
+                          <li><a href="http://localhost:8000/nl/category/personal-development.html"><i class="fa fa-dot-circle-o"></i> Personal development</a></li>
+                          <li><a href="http://localhost:8000/nl/category/random-ramblings.html"><i class="fa fa-dot-circle-o"></i> random ramblings</a></li>
+                      </ul>
+
+                  </div>
+
+                  <!-- Archives -->
+                  <div class="widget">
+
+                      <h3>Archives</h3>
+                    
+                      <!-- hide this part -->
+                      <div class="hidden">
+                          None
+                          None
+                          None
+                      </div>
+
+                      <ul class="tree">
+                        <li>
+                          <span><i class="fa fa-minus-square-o"></i>2013</span>
+                            <ul>
+                              <li>
+                                  <span><i class="fa fa-minus-square-o"></i>02</span>
+                                  <ul>
+                                      <li><a href="http://localhost:8000/nl/2013/02/ik_vroeg_god/"><small>2013/02/24</small>Ik vroeg&nbsp;God&#8230;</a></li>
+                                      <li><a href="http://localhost:8000/nl/2013/02/het-energiefeetje-komt-niet/"><small>2013/02/07</small>Het energiefeetje komt&nbsp;niet</a></li>
+                                  </ul>
+                                  <span><i class="fa fa-minus-square-o"></i>01</span>
+                                  <ul>
+                                      <li><a href="http://localhost:8000/nl/2013/01/Every_successful_enterprise_requires_three_men/"><small>2013/01/26</small>Elk succesvolle onderneming drijft op drie&nbsp;mannen&#8230;</a></li>
+                                  </ul>
+                              </li>
+                            </ul>
+                        </li>
+                      </ul>
+
+                  </div>
+
+              </div>
+              <!-- /SIDEBAR -->
+
+          </div>
+
+      </article>
+  </section>
+  <!-- /BLOG -->
+
+<!-- FOOTER -->
+<footer>
+
+  <!-- SCROOL TO TOP -->
+  <a href="#toTop" class="fa fa-arrow-up toTop"></a>
+
+  <div class="container">
+
+    <div class="row">
+
+        <div class="col-md-6 copyright">
+            Mind in the cloud
+            <br />2013-2017 &copy; All Rights Reserved.
+        </div>
+
+        <div class="col-md-6 text-right">
+              <a href="http://www.linkedin.com/in/RickVeenstra" class="social fa fa-linkedin"></a>
+              <a href="https://www.twitter.com/rickveenstra" class="social fa fa-twitter"></a>
+        </div>
+
+    </div>
+
+  </div>
+</footer>
+<!-- /FOOTER -->
+
+
+
+<!-- CORE FILES -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://localhost:8000/theme/js/jquery.isotope.js"></script>
+<script type="text/javascript" src="http://localhost:8000/theme/js/masonry.js"></script>
+
+<!-- PLUGINS -->
+<script type="text/javascript" src="http://localhost:8000/theme/js/jquery.fitvids.min.js"></script>
+<script type="text/javascript" src="http://localhost:8000/theme/js/jquery.appear.js"></script>
+<script type="text/javascript" src="http://localhost:8000/theme/js/jquery.superslides.min.js"></script>
+<script type="text/javascript" src="http://localhost:8000/theme/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="http://localhost:8000/theme/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script type="text/javascript" src="http://localhost:8000/theme/js/jquery.countTo.js"></script>
+<script type="text/javascript" src="http://localhost:8000/theme/js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="http://localhost:8000/theme/js/holder.js"></script>
+<!-- delete on production -->
+
+<!-- js scripts -->
+<script async type="text/javascript" src="http://localhost:8000/theme/js/scripts.js"></script>
+
+<script type="text/javascript" src="http://localhost:8000/theme/js/application.js"></script>
+
+
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  var disqus_shortname = 'mindinthecloud-nl'; // required: replace example with your forum shortname
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function () {
+  var s = document.createElement('script'); s.async = true;
+  s.type = 'text/javascript';
+  s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
+</script>
+</body>
+
+</html>

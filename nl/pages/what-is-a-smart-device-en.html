@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+        <title>  What is a ‘smart’ device?
+</title>
+        <meta charset="utf-8" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://localhost:8000/nl/">Mind in the cloud <strong>gedachten over het beheersen van IT risico&apos;s in een &lsquo;hyper-connected&rsquo; wereld</strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+        </ul></nav><!-- /#menu -->
+  
+  <div>
+    <p><span class="dquo">&#8220;</span>This hospital bed is equipped with a smart device that stores all the
+patient&#8217;s data.&#8221; Just a phrase in a discussion about an imaginary
+case of interconnected devices, also know as <em>&#8216;The Internet of Things&#8217;</em>.
+This made me wonder: what is a &#8216;Smart&nbsp;Device&#8217;?</p>
+<p>In this article I&#8217;ll try to create some clarity around this&nbsp;concept.</p>
+<p>From the context one thing was clear: a smart device is just a &#8216;thing&#8217;
+in the internet of things. A just slightly funny game of words that adds
+little to a better understanding of the concept. But the context of
+&#8216;internet&#8217; provides us at least with a first question to&nbsp;answer.</p>
+<dl class="docutils">
+<dt><em>Is a &#8216;smart device&#8217; internetworked by&nbsp;itself?</em></dt>
+<dd>Should it have it&#8217;s own <span class="caps">IP</span> network&nbsp;stack?</dd>
+</dl>
+<p>I tend to answer this by defining a smart device as accessible from the
+internet, be it by it&#8217;s own <span class="caps">IP</span> stack or by means of some kind of gateway
+or bridge. This implies that one can transform a <em>&#8216;dumb device&#8217;</em> into a
+smart one by simply adding some kind of electronic circuitry that
+provides it with an <span class="caps">IP</span> network stack. This has been done for far over a
+decade by equipment called <a class="reference external" href="https://en.wikipedia.org/wiki/Terminal_server">terminal servers</a>
+(the traditional type, not the kind that made Citrix a big player in the
+corporate world). These devices provided access over <span class="caps">IP</span> to equipment that only had serial
+interfaces conforming to standards like <a class="reference external" href="https://en.wikipedia.org/wiki/RS-232"><span class="caps">RS</span>-232</a>
+or <a class="reference external" href="https://en.wikipedia.org/wiki/RS-422"><span class="caps">RS</span>-422</a>.</p>
+<p>With only this definition a simple sensor &#8212;like a thermometer&#8212;
+equipped with a serial interface and connected to a <a class="reference external" href="https://en.wikipedia.org/wiki/Terminal_server">terminal server</a>
+would qualify as a &#8216;smart device&#8217;. We need to add another&nbsp;aspect.</p>
+<dl class="docutils">
+<dt><em>What makes a device&nbsp;&#8216;smart&#8217;?</em></dt>
+<dd>&#8230;besides being&nbsp;internetworked?</dd>
+</dl>
+<p>For this aspect I would like to add two characteristics for a device to
+qualify as being&nbsp;&#8216;smart&#8217;:</p>
+<!-- #. it has to be able to store information that can be retrieved *upon request*. -->
+<ol class="arabic simple">
+<li>its functionality can be changed without any physical&nbsp;contact</li>
+<li>its functionality can be extended or modified beyond what was previously&nbsp;available</li>
+</ol>
+<p>Take for instance an <span class="caps">IP</span>-connected videocamera. The functionality of such
+a device can be modified, by nature the <span class="caps">IP</span> network stack at least. Maybe
+the focus can be adjusted as well, or it can tilt and pan on command. But
+I would not qualify is as smart, because its functionality is fixed. At
+least as long as there is no means of remotely loading it with new
+software. If the software code is &#8216;frozen&#8217; in read-only memory and the
+device itself provides no means of altering the code without a physical
+connection I would consider such a device as merely&nbsp;&#8216;programmable&#8217;.</p>
+<p>A game console on the other hand can very well be considered &#8216;smart&#8217;. It
+is provided with writeable memory that
+can be loaded with functionality (programs) that can be retrieved from a
+remote location. It gets a little slippery here; ane can imagine edge
+cases like game consoles that only accept memory cards but have no
+network stack. But those are not internetworked and are disqualified from
+the &#8216;internet of&nbsp;things&#8217;.</p>
+
+  </div>
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>

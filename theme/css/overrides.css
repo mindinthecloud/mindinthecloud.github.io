@@ -1,0 +1,49 @@
+section ul,
+section ul li {
+		margin:0;
+		padding:0;
+		list-style:disc outside none;
+		}
+section .widget ul,
+section .widget ul li {
+		margin:0;
+		padding:0;
+		list-style:none;
+}
+#blog article.content UL.simple { 
+	margin-left:1em;
+	padding-left:1em;
+	}
+#blog article.content UL.simple li { 
+	margin-left:0em;
+	padding-left:0em;
+	list-style: disc outside none;
+	}
+#home .image-caption .inner h2 {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 800;
+    font-size: 350%;
+    line-height: 95%;
+    text-transform: uppercase;
+    text-shadow: none;
+    color: #FFF;
+    display: block;
+}
+#home .image-caption .inner h3 {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 800;
+    font-size: 200%;
+    line-height: 95%;
+    text-transform: none;
+    text-shadow: none;
+    color: #FFF;
+    display: block;
+}
+
+section#about div.container div.divider {
+	margin-bottom: 6 px ;
+	}
+
+#work div.container div.divider {
+	margin-bottom: 6 px ;
+	}
