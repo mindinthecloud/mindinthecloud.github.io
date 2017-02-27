@@ -4,196 +4,196 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://mindinthecloud.github.io/</loc>
-<lastmod>2017-02-27T11:08:08-00:00</lastmod>
+<loc>http://localhost:8000/</loc>
+<lastmod>2017-02-27T11:18:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/categories.html</loc>
-<lastmod>2017-02-27T11:08:08-00:00</lastmod>
+<loc>http://localhost:8000/categories.html</loc>
+<lastmod>2017-02-27T11:18:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/blog.html</loc>
-<lastmod>2017-02-27T11:08:08-00:00</lastmod>
+<loc>http://localhost:8000/blog.html</loc>
+<lastmod>2017-02-27T11:18:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/tag.html</loc>
-<lastmod>2017-02-27T11:08:08-00:00</lastmod>
+<loc>http://localhost:8000/tag.html</loc>
+<lastmod>2017-02-27T11:18:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/2017/04/psd2-vs-gdpr-will-we-keep-our-privacy-or-not-two-major-eu-regulations-on-collision-course/</loc>
+<loc>http://localhost:8000/2017/04/psd2-vs-gdpr-will-we-keep-our-privacy-or-not-two-major-eu-regulations-on-collision-course/</loc>
 <lastmod>2017-04-04T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/2016/10/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml/</loc>
+<loc>http://localhost:8000/2016/10/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml/</loc>
 <lastmod>2016-10-20T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/2016/05/a-key-difference-between-iot-and-ios/</loc>
+<loc>http://localhost:8000/2016/05/a-key-difference-between-iot-and-ios/</loc>
 <lastmod>2016-05-07T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/2016/05/installing-pelican/</loc>
+<loc>http://localhost:8000/2016/05/installing-pelican/</loc>
 <lastmod>2016-05-06T21:20:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/2013/02/lessons-from-benjamin-zanders-talk-on-ted-2008/</loc>
+<loc>http://localhost:8000/2013/02/lessons-from-benjamin-zanders-talk-on-ted-2008/</loc>
 <lastmod>2013-02-09T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/2013/02/tips-voor-aspiring-pilots/</loc>
+<loc>http://localhost:8000/2013/02/tips-voor-aspiring-pilots/</loc>
 <lastmod>2013-02-08T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/2013/01/now/</loc>
+<loc>http://localhost:8000/2013/01/now/</loc>
 <lastmod>2013-01-28T21:30:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/2013/01/Every_successful_enterprise_requires_three_men/</loc>
+<loc>http://localhost:8000/2013/01/Every_successful_enterprise_requires_three_men/</loc>
 <lastmod>2013-01-26T11:20:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/category/fun.html</loc>
+<loc>http://localhost:8000/category/fun.html</loc>
 <lastmod>2013-02-08T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/category/internet-of-things.html</loc>
+<loc>http://localhost:8000/category/internet-of-things.html</loc>
 <lastmod>2016-10-20T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/category/pelican.html</loc>
+<loc>http://localhost:8000/category/pelican.html</loc>
 <lastmod>2016-05-06T21:20:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/category/personal-development.html</loc>
+<loc>http://localhost:8000/category/personal-development.html</loc>
 <lastmod>2013-02-09T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/category/privacy.html</loc>
+<loc>http://localhost:8000/category/privacy.html</loc>
 <lastmod>2017-04-04T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/category/random-ramblings.html</loc>
+<loc>http://localhost:8000/category/random-ramblings.html</loc>
 <lastmod>2013-01-28T21:30:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/tag/faith.html</loc>
+<loc>http://localhost:8000/tag/faith.html</loc>
 <lastmod>2013-02-09T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/tag/quotes.html</loc>
+<loc>http://localhost:8000/tag/quotes.html</loc>
 <lastmod>2013-01-28T21:30:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/tag/iot.html</loc>
+<loc>http://localhost:8000/tag/iot.html</loc>
 <lastmod>2016-10-20T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/tag/ted.html</loc>
+<loc>http://localhost:8000/tag/ted.html</loc>
 <lastmod>2013-02-09T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/tag/blog.html</loc>
+<loc>http://localhost:8000/tag/blog.html</loc>
 <lastmod>2016-05-06T21:20:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/tag/internet-of-things.html</loc>
+<loc>http://localhost:8000/tag/internet-of-things.html</loc>
 <lastmod>2016-10-20T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/tag/tech.html</loc>
+<loc>http://localhost:8000/tag/tech.html</loc>
 <lastmod>2016-05-06T21:20:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/tag/uml.html</loc>
+<loc>http://localhost:8000/tag/uml.html</loc>
 <lastmod>2016-10-20T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/tag/eu-gdpr.html</loc>
+<loc>http://localhost:8000/tag/eu-gdpr.html</loc>
 <lastmod>2017-04-04T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/author/rick-veenstra.html</loc>
+<loc>http://localhost:8000/author/rick-veenstra.html</loc>
 <lastmod>2017-04-04T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>

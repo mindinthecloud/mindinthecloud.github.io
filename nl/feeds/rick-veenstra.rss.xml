@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Mind in the cloud</title><link>https://mindinthecloud.github.io/nl/</link><description>gedachten over het beheersen van IT risico&amp;apos;s in een &amp;lsquo;hyper-connected&amp;rsquo; wereld</description><lastBuildDate>Sun, 24 Feb 2013 00:00:00 +0100</lastBuildDate><item><title>Ik vroeg God…</title><link>https://mindinthecloud.github.io/nl/2013/02/ik_vroeg_god/</link><description>&lt;div class="line-block"&gt;
+<rss version="2.0"><channel><title>Mind in the cloud</title><link>http://localhost:8000/nl/</link><description>gedachten over het beheersen van IT risico&amp;apos;s in een &amp;lsquo;hyper-connected&amp;rsquo; wereld</description><lastBuildDate>Sun, 24 Feb 2013 00:00:00 +0100</lastBuildDate><item><title>Ik vroeg God…</title><link>http://localhost:8000/nl/2013/02/ik_vroeg_god/</link><description>&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Ik vroeg God om mijn slechte gewoonte weg te nemen.&lt;/div&gt;
 &lt;div class="line"&gt;God zei: Nee&lt;/div&gt;
 &lt;div class="line"&gt;Die is er niet om door Mij weggenomen te worden&lt;/div&gt;
@@ -36,7 +36,7 @@
 &lt;div class="line"&gt;eindelijk begin je het door te krijgen.&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;(bron onbekend, orginineel via &lt;a class="reference external" href="http://kennythemonk.typepad.com/kenny_moore/2009/07/mystical.html"&gt;Kenny the Monk&lt;/a&gt;)&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Sun, 24 Feb 2013 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:mindinthecloud.github.io,2013-02-24:nl/2013/02/ik_vroeg_god/</guid><category>geloof</category></item><item><title>Het energiefeetje komt niet</title><link>https://mindinthecloud.github.io/nl/2013/02/het-energiefeetje-komt-niet/</link><description>&lt;p&gt;Twaalf tips om je eigen energie op peil te&amp;nbsp;houden:&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Sun, 24 Feb 2013 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:localhost:8000,2013-02-24:nl/2013/02/ik_vroeg_god/</guid><category>geloof</category></item><item><title>Het energiefeetje komt niet</title><link>http://localhost:8000/nl/2013/02/het-energiefeetje-komt-niet/</link><description>&lt;p&gt;Twaalf tips om je eigen energie op peil te&amp;nbsp;houden:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;houd op met proberen anderen te controleren. Er zijn weinig dingen die zoveel energie vreten als
 het proberen anderen zover te krijgen dat ze dingen doen die ze niet&amp;nbsp;willen.&lt;/li&gt;
@@ -56,7 +56,7 @@ Zorg dat de verhouding energie-gevende en energie-vretende activiteiten minimaal
 &lt;/ul&gt;
 &lt;p&gt;met dank aan Dan Rockwell - &lt;a class="reference external" href="http://leadershipfreak.wordpress.com/2013/01/26/12-ways-to-fuel-your-own-fire/"&gt;Leadership&amp;nbsp;Freak&lt;/a&gt;&lt;/p&gt;
 &lt;!--  --&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Thu, 07 Feb 2013 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:mindinthecloud.github.io,2013-02-07:nl/2013/02/het-energiefeetje-komt-niet/</guid><category>effectivity</category><category>links</category></item><item><title>Elk succesvolle onderneming drijft op drie mannen…</title><link>https://mindinthecloud.github.io/nl/2013/01/Every_successful_enterprise_requires_three_men/</link><description>&lt;!--  --&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Thu, 07 Feb 2013 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:localhost:8000,2013-02-07:nl/2013/02/het-energiefeetje-komt-niet/</guid><category>effectivity</category><category>links</category></item><item><title>Elk succesvolle onderneming drijft op drie mannen…</title><link>http://localhost:8000/nl/2013/01/Every_successful_enterprise_requires_three_men/</link><description>&lt;!--  --&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;span class="caps"&gt;RT&lt;/span&gt; &amp;#64;mushyola &amp;#8220;Every successful enterprise requires three men - a
 dreamer, a businessman and a son-of-a-bitch&amp;#8221; -Peter&amp;nbsp;MacArthur&lt;/p&gt;
@@ -90,4 +90,4 @@ op een kritische beoordeling in de jaarlijkse &lt;span class="caps"&gt;HR&lt;/sp
 weggepromoveerd of gewoon naar het &lt;span class="caps"&gt;UWV&lt;/span&gt;&amp;nbsp;doorgestuurd.&lt;/p&gt;
 &lt;p&gt;Ik pleit ervoor de functie van de &amp;#8216;joker&amp;#8217; of &amp;#8216;nar&amp;#8217; terug te brengen in
 elke grote&amp;nbsp;organisatie.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Sat, 26 Jan 2013 11:20:00 +0100</pubDate><guid isPermaLink="false">tag:mindinthecloud.github.io,2013-01-26:nl/2013/01/Every_successful_enterprise_requires_three_men/</guid><category>quotes</category></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Sat, 26 Jan 2013 11:20:00 +0100</pubDate><guid isPermaLink="false">tag:localhost:8000,2013-01-26:nl/2013/01/Every_successful_enterprise_requires_three_men/</guid><category>quotes</category></item></channel></rss>
