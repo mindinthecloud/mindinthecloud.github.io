@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mind in the cloud</title><link href="http://localhost:8000/" rel="alternate"></link><link href="http://localhost:8000/feeds/internet-of-things.atom.xml" rel="self"></link><id>http://localhost:8000/</id><updated>2016-10-20T00:00:00+02:00</updated><entry><title>The roles of the owner of an IoT device, expressed in UML</title><link href="http://localhost:8000/2016/10/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml/" rel="alternate"></link><published>2016-10-20T00:00:00+02:00</published><author><name>Rick Veenstra</name></author><id>tag:localhost:8000,2016-10-20:2016/10/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml/</id><summary type="html">&lt;p&gt;In a previous blog post we mentioned the different roles of the consumer owning an IoT device. In this article we will try to illustrate these roles in &lt;span class="caps"&gt;UML&lt;/span&gt; Use Case diagrams. The Use Case diagram is one of the several types of models that are part of the Unified Modeling Language (see wikipedia). These are used to describe the interactions of actors with a piece of&amp;nbsp;software.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mind in the cloud</title><link href="https://mindinthecloud.github.io/" rel="alternate"></link><link href="https://mindinthecloud.github.io/feeds/internet-of-things.atom.xml" rel="self"></link><id>https://mindinthecloud.github.io/</id><updated>2016-10-20T00:00:00+02:00</updated><entry><title>The roles of the owner of an IoT device, expressed in UML</title><link href="https://mindinthecloud.github.io/2016/10/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml/" rel="alternate"></link><published>2016-10-20T00:00:00+02:00</published><author><name>Rick Veenstra</name></author><id>tag:mindinthecloud.github.io,2016-10-20:2016/10/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml/</id><summary type="html">&lt;p&gt;In a previous blog post we mentioned the different roles of the consumer owning an IoT device. In this article we will try to illustrate these roles in &lt;span class="caps"&gt;UML&lt;/span&gt; Use Case diagrams. The Use Case diagram is one of the several types of models that are part of the Unified Modeling Language (see wikipedia). These are used to describe the interactions of actors with a piece of&amp;nbsp;software.&lt;/p&gt;
 &lt;p&gt;We will start with the most basic model. An actor (the consumer) uses a service (via an internet connection). This service is provided by &amp;#8212;you guessed it&amp;#8212; a service&amp;nbsp;provider.&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/5cea17f3.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/5cea17f3.png" /&gt;
 &lt;p&gt;Pretty basic, even if you are not into &lt;span class="caps"&gt;UML&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;The next step we add the fact that the service depends on data provided by the consumer. He now has two roles: that of the user of the service and that of the provider of data. In the Use Case diagram we show this by adding the role above the icon of each&amp;nbsp;actor.&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/411b5d41.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/411b5d41.png" /&gt;
 &lt;div class="section" id="the-role-consumer"&gt;
 &lt;h2&gt;The role &lt;em&gt;&amp;#8216;consumer&amp;#8217;&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;For someone who is used to talk about services in a software context, a little confusion creeps in. The label &lt;em&gt;&amp;#8216;consumer&amp;#8217;&lt;/em&gt; in an economical/marketing context is quite clear. It is used for individual people purchasing goods. In the world of digital services, the label &lt;em&gt;&amp;#8216;consumer&amp;#8217;&lt;/em&gt; is used in a more generic way. In this case it is used for any object (usually some kind of software) that uses the output of a service. Since we somewhat blend these two meanings we will now use the name &amp;#8220;John Doe&amp;#8221; for the individual that uses services in the Internet of Things. One of his &lt;em&gt;roles&lt;/em&gt; is &lt;em&gt;&amp;lt;&amp;lt;service consumer&amp;gt;&amp;gt;&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Back to the diagrams. The data provided by the customer (now identified as &amp;#8220;John Doe&amp;#8221;) is stored and processed by the Service. These are two separate activities, so we model the service as a&amp;nbsp;group:&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/b9fa54df.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/b9fa54df.png" /&gt;
 &lt;p&gt;We now have a basic model of a generic service that is provided over the internet by a service provider, that depends on data provided by the end&amp;nbsp;user.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="data-processing"&gt;
 &lt;h2&gt;Data&amp;nbsp;processing&lt;/h2&gt;
 &lt;p&gt;We&amp;#8217;ll add one additional element. In the previous diagram John Doe uses &amp;#8216;data processing&amp;#8217;. While technically correct, an average John Doe is not likely attracted to use &amp;#8216;data processing&amp;#8217;. In business manegement lingo, the service provides &amp;#8216;added value&amp;#8217; to John Doe; something (not strictly defined) that he recognises as having value for&amp;nbsp;him.&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/cc856137.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/cc856137.png" /&gt;
 &lt;/div&gt;
 &lt;div class="section" id="paying-for-the-service"&gt;
 &lt;h2&gt;Paying for the&amp;nbsp;service&lt;/h2&gt;
 &lt;p&gt;Well, you apparently are still with us. Up to this point things have been straight forward. Now we add somthing a little complicating. No service can exisist on it&amp;#8217;s own. Providing a service comes at a cost. In the context of digital services and the Internet of Things this at least requires computer equipment and network connections. So we factor in than John Doe pays the Service Provider for delivering the&amp;nbsp;service.&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/cb7d6d51.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/cb7d6d51.png" /&gt;
 &lt;div class="section" id="sidestep-paying-for-a-free-service"&gt;
 &lt;h3&gt;Sidestep: paying for a free&amp;nbsp;service?&lt;/h3&gt;
 &lt;p&gt;Now you may object: I&amp;#8217;m using quite a lot of web applications that I do not have to pay for. Say
@@ -40,7 +40,7 @@ or the product, you&lt;/em&gt; &lt;strong&gt;are&lt;/strong&gt; &lt;em&gt;the pr
 Information (&lt;span class="caps"&gt;PII&lt;/span&gt; for&amp;nbsp;short).&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;This reasoning implies that we need to add another role for our dear John Doe: the data&amp;nbsp;subject&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/95597d25.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/95597d25.png" /&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="next-how-the-data-is-generated"&gt;
@@ -50,7 +50,7 @@ Information (&lt;span class="caps"&gt;PII&lt;/span&gt; for&amp;nbsp;short).&lt;/
 &lt;div class="section" id="the-device"&gt;
 &lt;h2&gt;The&amp;nbsp;device&lt;/h2&gt;
 &lt;p&gt;We will first focus on the device and leave the service out (for&amp;nbsp;now).&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/9cb82da1.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/9cb82da1.png" /&gt;
 &lt;p&gt;Again a very basic start, but not for&amp;nbsp;long.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="sidestep-the-device-and-it-s-software-a-k-a-firmware"&gt;
@@ -63,21 +63,21 @@ Information (&lt;span class="caps"&gt;PII&lt;/span&gt; for&amp;nbsp;short).&lt;/
 &lt;p&gt;&lt;span class="caps"&gt;OK&lt;/span&gt;, you&amp;#8217;ll have to wait a veeeeeery long time before your device turns into dust, but you get the picture. Anything man creates will degrade over time. Ignore your housecleaning chores long enough and your furniture will get covered with dust. We all have experience with electronic devices getting to behave erratic or not at all. We can&amp;#8217;t prevent this degradation but we can (try to) postpone it by regular maintenance. Therefore our cars (mostly) get regular oil changes and while the tires evetually wear out we try to keep them balanced and sufficiently&amp;nbsp;inflated.&lt;/p&gt;
 &lt;p&gt;This maintenance burden comes with the ownership of &lt;em&gt;any&lt;/em&gt; device. For a device in the world of IoT this burden comes in two areas: firmware and configuration. Firmware is actually just software, but tightly coupled to the hardware. Firmware is usually not intended to be installed or modified by the owner of the device as we are used to with our desktops and laptops. Depending of the functionality it has configuration settings that can be changed by the owner or user of the &amp;#8216;thing&amp;#8217;. Configuration requires at least a basic understanding of the usage of the device and can be done&amp;nbsp;wrong.&lt;/p&gt;
 &lt;p&gt;In our diagram we have to add the same actor John Doe a second time, but now in his new role of &amp;#8220;device&amp;nbsp;maintainer&amp;#8221;:&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/e7c260a4.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/e7c260a4.png" /&gt;
 &lt;p&gt;As most of us know by now, software is rarely flawless. See &lt;a class="reference external" href="https://www.cs.tau.ac.il/~nachumd/horror.html"&gt;this link&lt;/a&gt; for some horror stories. Updating the operating system of our computers has become an annoying but unavoidable part of our digital lives. The same is (or better: should be) true for the semi-autonomous devices in the Internet of Things. One major problem is that software flaws or bugs are not always repaired. Once a device is sold, there is not much of an incentive for a device maker to maintain its software beyond the period the devices are actually being sold. Yet, in our diagram we need to add the maintanance of the device. Someone at least has to provide updated software to users of these&amp;nbsp;devices.&lt;/p&gt;
 &lt;p&gt;So again we need a new role: the &amp;#8220;firmware supplier&amp;#8221;. Usually this role is performed by the IoT device&amp;nbsp;supplier.&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/cc408099.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/cc408099.png" /&gt;
 &lt;/div&gt;
 &lt;div class="section" id="the-whole-picture"&gt;
 &lt;h2&gt;The whole&amp;nbsp;picture&lt;/h2&gt;
 &lt;p&gt;Now it is time to combine the two diagrams we&amp;nbsp;constructed:&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/8d5f3a30.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/8d5f3a30.png" /&gt;
 &lt;/div&gt;
 &lt;div class="section" id="conclusion"&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;We just created a diagram showing the different roles involved in the use of a &amp;#8216;thing&amp;#8217; in the Internet of Things. A device that gathers data about someone and uses a service to process the data for the owner into something that he percieves as valuable. What at first observation appears to be very simple, evolves into a model in which &lt;em&gt;John Doe performs no less than&lt;/em&gt; &lt;strong&gt;five&lt;/strong&gt; &lt;em&gt;different roles&lt;/em&gt;. And poor John thought he had only bought himself a&amp;nbsp;&amp;#8216;thing&amp;#8217;&amp;#8230;&lt;/p&gt;
 &lt;/div&gt;
-</summary><category term="IoT"></category><category term="Internet of Things"></category><category term="UML"></category></entry><entry><title>a key difference between IoT and IoS</title><link href="http://localhost:8000/2016/05/a-key-difference-between-iot-and-ios/" rel="alternate"></link><published>2016-05-07T00:00:00+02:00</published><author><name>Rick Veenstra</name></author><id>tag:localhost:8000,2016-05-07:2016/05/a-key-difference-between-iot-and-ios/</id><summary type="html">&lt;p&gt;The buzz around the &amp;#8216;Internet of Things&amp;#8217; is mainly caused because we seem
+</summary><category term="IoT"></category><category term="Internet of Things"></category><category term="UML"></category></entry><entry><title>a key difference between IoT and IoS</title><link href="https://mindinthecloud.github.io/2016/05/a-key-difference-between-iot-and-ios/" rel="alternate"></link><published>2016-05-07T00:00:00+02:00</published><author><name>Rick Veenstra</name></author><id>tag:mindinthecloud.github.io,2016-05-07:2016/05/a-key-difference-between-iot-and-ios/</id><summary type="html">&lt;p&gt;The buzz around the &amp;#8216;Internet of Things&amp;#8217; is mainly caused because we seem
 to have passed a major tipping point. Cheap to produce Systems-on-a-Chip
 have reached levels of integration and computing power that enable running
 serious functionality combined with a full &lt;span class="caps"&gt;IP&lt;/span&gt; network stack. We&amp;#8217;re facing

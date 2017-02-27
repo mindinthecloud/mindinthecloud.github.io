@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Mind in the cloud</title><link>http://localhost:8000/</link><description>thoughts about managing IT risk in a hyper-connected world</description><lastBuildDate>Tue, 04 Apr 2017 00:00:00 +0200</lastBuildDate><item><title>PSD2 vs GDPR: will we keep our privacy or not? Two major EU regulations on collision course</title><link>http://localhost:8000/2017/04/psd2-vs-gdpr-will-we-keep-our-privacy-or-not-two-major-eu-regulations-on-collision-course/</link><description>&lt;p&gt;In an &lt;a class="reference external" href="https://www.linkedin.com/pulse/psd2-gdpr-regulations-collission-course-krzysztof-trojan"&gt;article&lt;/a&gt; that recently appeared on &lt;a class="reference external" href="https://www.linkedin.com/pulse/discover"&gt;LinkedIn Pulse&lt;/a&gt;, one Krzysztof Trojan wrote about the conflics between two major European legislations that have quite some impact on the finance&amp;nbsp;world.&lt;/p&gt;
+<rss version="2.0"><channel><title>Mind in the cloud</title><link>https://mindinthecloud.github.io/</link><description>thoughts about managing IT risk in a hyper-connected world</description><lastBuildDate>Tue, 04 Apr 2017 00:00:00 +0200</lastBuildDate><item><title>PSD2 vs GDPR: will we keep our privacy or not? Two major EU regulations on collision course</title><link>https://mindinthecloud.github.io/2017/04/psd2-vs-gdpr-will-we-keep-our-privacy-or-not-two-major-eu-regulations-on-collision-course/</link><description>&lt;p&gt;In an &lt;a class="reference external" href="https://www.linkedin.com/pulse/psd2-gdpr-regulations-collission-course-krzysztof-trojan"&gt;article&lt;/a&gt; that recently appeared on &lt;a class="reference external" href="https://www.linkedin.com/pulse/discover"&gt;LinkedIn Pulse&lt;/a&gt;, one Krzysztof Trojan wrote about the conflics between two major European legislations that have quite some impact on the finance&amp;nbsp;world.&lt;/p&gt;
 &lt;p&gt;The Revised Payment Services Directive (&lt;span class="caps"&gt;PSD2&lt;/span&gt;) will require financial institutions (especially banks) to open access to the personal information related to the accounts to third parties the institution has no contractual agreement with. The &lt;span class="caps"&gt;GDPR&lt;/span&gt; however forbids sharing the information with third parties; basically it is the individual to give consent and to provide the data to the data processor - not other&amp;nbsp;processors.&lt;/p&gt;
 &lt;p&gt;It is weird to read how two legislations from the &lt;span class="caps"&gt;EU&lt;/span&gt; can address the topic of privacy and consent from such opposing angles. I suppose it&amp;#8217;ll take some years of lawsuits and appeals up to the &lt;a class="reference external" href="https://europa.eu/european-union/about-eu/institutions-bodies/court-justice_en"&gt;Court of Justice of the European Union&lt;/a&gt; (&lt;span class="caps"&gt;CJEU&lt;/span&gt;) to settle this. Do we have to be prepared for some suprises like the &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Max_Schrems"&gt;Schrems case&lt;/a&gt;, where the &lt;span class="caps"&gt;CJEU&lt;/span&gt; invalidated the entire &lt;span class="caps"&gt;US&lt;/span&gt;-&lt;span class="caps"&gt;EU&lt;/span&gt; Safe Harbour&amp;nbsp;arrangement?&lt;/p&gt;
 &lt;p&gt;You can find the article titled &lt;a class="reference external" href="&amp;lt;https://www.linkedin.com/pulse/psd2-gdpr-regulations-collission-course-krzysztof-trojan&amp;gt;`_"&gt;&lt;span class="caps"&gt;PSD2&lt;/span&gt; and &lt;span class="caps"&gt;GDPR&lt;/span&gt; regulations on collision course?&lt;/a&gt; on &lt;a class="reference external" href="https://www.linkedin.com/pulse/psd2-gdpr-regulations-collission-course-krzysztof-trojan"&gt;LinkedIn&lt;/a&gt;. Thought provoking, as the comments below the artice&amp;nbsp;show.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Tue, 04 Apr 2017 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:localhost:8000,2017-04-04:2017/04/psd2-vs-gdpr-will-we-keep-our-privacy-or-not-two-major-eu-regulations-on-collision-course/</guid><category>EU-GDPR</category></item><item><title>The roles of the owner of an IoT device, expressed in UML</title><link>http://localhost:8000/2016/10/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml/</link><description>&lt;p&gt;In a previous blog post we mentioned the different roles of the consumer owning an IoT device. In this article we will try to illustrate these roles in &lt;span class="caps"&gt;UML&lt;/span&gt; Use Case diagrams. The Use Case diagram is one of the several types of models that are part of the Unified Modeling Language (see wikipedia). These are used to describe the interactions of actors with a piece of&amp;nbsp;software.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Tue, 04 Apr 2017 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:mindinthecloud.github.io,2017-04-04:2017/04/psd2-vs-gdpr-will-we-keep-our-privacy-or-not-two-major-eu-regulations-on-collision-course/</guid><category>EU-GDPR</category></item><item><title>The roles of the owner of an IoT device, expressed in UML</title><link>https://mindinthecloud.github.io/2016/10/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml/</link><description>&lt;p&gt;In a previous blog post we mentioned the different roles of the consumer owning an IoT device. In this article we will try to illustrate these roles in &lt;span class="caps"&gt;UML&lt;/span&gt; Use Case diagrams. The Use Case diagram is one of the several types of models that are part of the Unified Modeling Language (see wikipedia). These are used to describe the interactions of actors with a piece of&amp;nbsp;software.&lt;/p&gt;
 &lt;p&gt;We will start with the most basic model. An actor (the consumer) uses a service (via an internet connection). This service is provided by &amp;#8212;you guessed it&amp;#8212; a service&amp;nbsp;provider.&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/5cea17f3.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/5cea17f3.png" /&gt;
 &lt;p&gt;Pretty basic, even if you are not into &lt;span class="caps"&gt;UML&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;The next step we add the fact that the service depends on data provided by the consumer. He now has two roles: that of the user of the service and that of the provider of data. In the Use Case diagram we show this by adding the role above the icon of each&amp;nbsp;actor.&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/411b5d41.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/411b5d41.png" /&gt;
 &lt;div class="section" id="the-role-consumer"&gt;
 &lt;h2&gt;The role &lt;em&gt;&amp;#8216;consumer&amp;#8217;&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;For someone who is used to talk about services in a software context, a little confusion creeps in. The label &lt;em&gt;&amp;#8216;consumer&amp;#8217;&lt;/em&gt; in an economical/marketing context is quite clear. It is used for individual people purchasing goods. In the world of digital services, the label &lt;em&gt;&amp;#8216;consumer&amp;#8217;&lt;/em&gt; is used in a more generic way. In this case it is used for any object (usually some kind of software) that uses the output of a service. Since we somewhat blend these two meanings we will now use the name &amp;#8220;John Doe&amp;#8221; for the individual that uses services in the Internet of Things. One of his &lt;em&gt;roles&lt;/em&gt; is &lt;em&gt;&amp;lt;&amp;lt;service consumer&amp;gt;&amp;gt;&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Back to the diagrams. The data provided by the customer (now identified as &amp;#8220;John Doe&amp;#8221;) is stored and processed by the Service. These are two separate activities, so we model the service as a&amp;nbsp;group:&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/b9fa54df.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/b9fa54df.png" /&gt;
 &lt;p&gt;We now have a basic model of a generic service that is provided over the internet by a service provider, that depends on data provided by the end&amp;nbsp;user.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="data-processing"&gt;
 &lt;h2&gt;Data&amp;nbsp;processing&lt;/h2&gt;
 &lt;p&gt;We&amp;#8217;ll add one additional element. In the previous diagram John Doe uses &amp;#8216;data processing&amp;#8217;. While technically correct, an average John Doe is not likely attracted to use &amp;#8216;data processing&amp;#8217;. In business manegement lingo, the service provides &amp;#8216;added value&amp;#8217; to John Doe; something (not strictly defined) that he recognises as having value for&amp;nbsp;him.&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/cc856137.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/cc856137.png" /&gt;
 &lt;/div&gt;
 &lt;div class="section" id="paying-for-the-service"&gt;
 &lt;h2&gt;Paying for the&amp;nbsp;service&lt;/h2&gt;
 &lt;p&gt;Well, you apparently are still with us. Up to this point things have been straight forward. Now we add somthing a little complicating. No service can exisist on it&amp;#8217;s own. Providing a service comes at a cost. In the context of digital services and the Internet of Things this at least requires computer equipment and network connections. So we factor in than John Doe pays the Service Provider for delivering the&amp;nbsp;service.&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/cb7d6d51.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/cb7d6d51.png" /&gt;
 &lt;div class="section" id="sidestep-paying-for-a-free-service"&gt;
 &lt;h3&gt;Sidestep: paying for a free&amp;nbsp;service?&lt;/h3&gt;
 &lt;p&gt;Now you may object: I&amp;#8217;m using quite a lot of web applications that I do not have to pay for. Say
@@ -44,7 +44,7 @@ or the product, you&lt;/em&gt; &lt;strong&gt;are&lt;/strong&gt; &lt;em&gt;the pr
 Information (&lt;span class="caps"&gt;PII&lt;/span&gt; for&amp;nbsp;short).&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;This reasoning implies that we need to add another role for our dear John Doe: the data&amp;nbsp;subject&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/95597d25.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/95597d25.png" /&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="next-how-the-data-is-generated"&gt;
@@ -54,7 +54,7 @@ Information (&lt;span class="caps"&gt;PII&lt;/span&gt; for&amp;nbsp;short).&lt;/
 &lt;div class="section" id="the-device"&gt;
 &lt;h2&gt;The&amp;nbsp;device&lt;/h2&gt;
 &lt;p&gt;We will first focus on the device and leave the service out (for&amp;nbsp;now).&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/9cb82da1.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/9cb82da1.png" /&gt;
 &lt;p&gt;Again a very basic start, but not for&amp;nbsp;long.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="sidestep-the-device-and-it-s-software-a-k-a-firmware"&gt;
@@ -67,21 +67,21 @@ Information (&lt;span class="caps"&gt;PII&lt;/span&gt; for&amp;nbsp;short).&lt;/
 &lt;p&gt;&lt;span class="caps"&gt;OK&lt;/span&gt;, you&amp;#8217;ll have to wait a veeeeeery long time before your device turns into dust, but you get the picture. Anything man creates will degrade over time. Ignore your housecleaning chores long enough and your furniture will get covered with dust. We all have experience with electronic devices getting to behave erratic or not at all. We can&amp;#8217;t prevent this degradation but we can (try to) postpone it by regular maintenance. Therefore our cars (mostly) get regular oil changes and while the tires evetually wear out we try to keep them balanced and sufficiently&amp;nbsp;inflated.&lt;/p&gt;
 &lt;p&gt;This maintenance burden comes with the ownership of &lt;em&gt;any&lt;/em&gt; device. For a device in the world of IoT this burden comes in two areas: firmware and configuration. Firmware is actually just software, but tightly coupled to the hardware. Firmware is usually not intended to be installed or modified by the owner of the device as we are used to with our desktops and laptops. Depending of the functionality it has configuration settings that can be changed by the owner or user of the &amp;#8216;thing&amp;#8217;. Configuration requires at least a basic understanding of the usage of the device and can be done&amp;nbsp;wrong.&lt;/p&gt;
 &lt;p&gt;In our diagram we have to add the same actor John Doe a second time, but now in his new role of &amp;#8220;device&amp;nbsp;maintainer&amp;#8221;:&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/e7c260a4.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/e7c260a4.png" /&gt;
 &lt;p&gt;As most of us know by now, software is rarely flawless. See &lt;a class="reference external" href="https://www.cs.tau.ac.il/~nachumd/horror.html"&gt;this link&lt;/a&gt; for some horror stories. Updating the operating system of our computers has become an annoying but unavoidable part of our digital lives. The same is (or better: should be) true for the semi-autonomous devices in the Internet of Things. One major problem is that software flaws or bugs are not always repaired. Once a device is sold, there is not much of an incentive for a device maker to maintain its software beyond the period the devices are actually being sold. Yet, in our diagram we need to add the maintanance of the device. Someone at least has to provide updated software to users of these&amp;nbsp;devices.&lt;/p&gt;
 &lt;p&gt;So again we need a new role: the &amp;#8220;firmware supplier&amp;#8221;. Usually this role is performed by the IoT device&amp;nbsp;supplier.&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/cc408099.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/cc408099.png" /&gt;
 &lt;/div&gt;
 &lt;div class="section" id="the-whole-picture"&gt;
 &lt;h2&gt;The whole&amp;nbsp;picture&lt;/h2&gt;
 &lt;p&gt;Now it is time to combine the two diagrams we&amp;nbsp;constructed:&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="http://localhost:8000/images/8d5f3a30.png" /&gt;
+&lt;img alt="uml diagram" class="uml" src="https://mindinthecloud.github.io/images/8d5f3a30.png" /&gt;
 &lt;/div&gt;
 &lt;div class="section" id="conclusion"&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;We just created a diagram showing the different roles involved in the use of a &amp;#8216;thing&amp;#8217; in the Internet of Things. A device that gathers data about someone and uses a service to process the data for the owner into something that he percieves as valuable. What at first observation appears to be very simple, evolves into a model in which &lt;em&gt;John Doe performs no less than&lt;/em&gt; &lt;strong&gt;five&lt;/strong&gt; &lt;em&gt;different roles&lt;/em&gt;. And poor John thought he had only bought himself a&amp;nbsp;&amp;#8216;thing&amp;#8217;&amp;#8230;&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Thu, 20 Oct 2016 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:localhost:8000,2016-10-20:2016/10/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml/</guid><category>IoT</category><category>Internet of Things</category><category>UML</category></item><item><title>a key difference between IoT and IoS</title><link>http://localhost:8000/2016/05/a-key-difference-between-iot-and-ios/</link><description>&lt;p&gt;The buzz around the &amp;#8216;Internet of Things&amp;#8217; is mainly caused because we seem
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Thu, 20 Oct 2016 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:mindinthecloud.github.io,2016-10-20:2016/10/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml/</guid><category>IoT</category><category>Internet of Things</category><category>UML</category></item><item><title>a key difference between IoT and IoS</title><link>https://mindinthecloud.github.io/2016/05/a-key-difference-between-iot-and-ios/</link><description>&lt;p&gt;The buzz around the &amp;#8216;Internet of Things&amp;#8217; is mainly caused because we seem
 to have passed a major tipping point. Cheap to produce Systems-on-a-Chip
 have reached levels of integration and computing power that enable running
 serious functionality combined with a full &lt;span class="caps"&gt;IP&lt;/span&gt; network stack. We&amp;#8217;re facing
@@ -140,7 +140,7 @@ the terms of service, this value will degrade rapidly over&amp;nbsp;time.&lt;/p&
 something that provides one or more services. The consumer of this service
 usually is some other kind of &amp;#8216;service&amp;#8217; in the Internet of&amp;nbsp;Services.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Sat, 07 May 2016 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:localhost:8000,2016-05-07:2016/05/a-key-difference-between-iot-and-ios/</guid><category>IoT</category><category>Internet of things</category></item><item><title>Installing Pelican</title><link>http://localhost:8000/2016/05/installing-pelican/</link><description>&lt;p&gt;Just did a clean install of Pelican on a Linux Mint workstation. I&amp;#8217;ll try to document all the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Sat, 07 May 2016 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:mindinthecloud.github.io,2016-05-07:2016/05/a-key-difference-between-iot-and-ios/</guid><category>IoT</category><category>Internet of things</category></item><item><title>Installing Pelican</title><link>https://mindinthecloud.github.io/2016/05/installing-pelican/</link><description>&lt;p&gt;Just did a clean install of Pelican on a Linux Mint workstation. I&amp;#8217;ll try to document all the
 steps up to a working site in this&amp;nbsp;article.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rick@ender ~/Documents/ $ mkdir blog
 rick@ender ~/Documents/ $ virtualenv blog
@@ -155,7 +155,7 @@ rick@ender ~/Documents/ $ &lt;span class="nb"&gt;source&lt;/span&gt; bin/activat
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;You now have a basic Pelican install to work with. The rest is just a matter of choosing your hosting option and read the fine manuals on &lt;a class="reference external" href="http://getpelican.com"&gt;getpelican.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;That&amp;#8217;s all&amp;nbsp;folks!&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Fri, 06 May 2016 21:20:00 +0200</pubDate><guid isPermaLink="false">tag:localhost:8000,2016-05-06:2016/05/installing-pelican/</guid><category>blog</category><category>tech</category></item><item><title>Lessons from Benjamin Zander’s talk on TED 2008</title><link>http://localhost:8000/2013/02/lessons-from-benjamin-zanders-talk-on-ted-2008/</link><description>&lt;p&gt;Benjamin Zander is a world-famous classical orchestra conductor.
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Fri, 06 May 2016 21:20:00 +0200</pubDate><guid isPermaLink="false">tag:mindinthecloud.github.io,2016-05-06:2016/05/installing-pelican/</guid><category>blog</category><category>tech</category></item><item><title>Lessons from Benjamin Zander’s talk on TED 2008</title><link>https://mindinthecloud.github.io/2013/02/lessons-from-benjamin-zanders-talk-on-ted-2008/</link><description>&lt;p&gt;Benjamin Zander is a world-famous classical orchestra conductor.
 During &lt;a class="reference external" href="http://www.ted.com/talks/benjamin_zander_on_music_and_passion.html"&gt;his talk at &lt;span class="caps"&gt;TED2008&lt;/span&gt; on &amp;#8216;classical music and passion&amp;#8217;&lt;/a&gt; he refers to
 a moment of &amp;#8216;enlightenment&amp;#8217; as I would call&amp;nbsp;it.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -205,7 +205,7 @@ our impact on&amp;nbsp;others.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;and we can extend this question to each and every relation we have in
 this&amp;nbsp;life.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Sat, 09 Feb 2013 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:localhost:8000,2013-02-09:2013/02/lessons-from-benjamin-zanders-talk-on-ted-2008/</guid><category>ted</category><category>faith</category></item><item><title>Tips voor aspiring pilots</title><link>http://localhost:8000/2013/02/tips-voor-aspiring-pilots/</link><description>&lt;ol class="arabic simple"&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Sat, 09 Feb 2013 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:mindinthecloud.github.io,2013-02-09:2013/02/lessons-from-benjamin-zanders-talk-on-ted-2008/</guid><category>ted</category><category>faith</category></item><item><title>Tips voor aspiring pilots</title><link>https://mindinthecloud.github.io/2013/02/tips-voor-aspiring-pilots/</link><description>&lt;ol class="arabic simple"&gt;
 &lt;li&gt;Takeoffs are optional. Landings are&amp;nbsp;mandatory.&lt;/li&gt;
 &lt;li&gt;If you push the stick forward, the houses get bigger. If you pull the stick back, they get&amp;nbsp;smaller.&lt;/li&gt;
 &lt;li&gt;Flying isn&amp;#8217;t dangerous. Crashing is&amp;nbsp;dangerous.&lt;/li&gt;
@@ -237,7 +237,7 @@ this&amp;nbsp;life.&lt;/p&gt;
 &lt;li&gt;Helicopters can&amp;#8217;t fly; they&amp;#8217;re just so ugly the earth repels&amp;nbsp;them.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Thanks to the &lt;em&gt;You Make Me Laugh&lt;/em&gt; newsletter from &lt;a class="reference external" href="http://www.crosswalk.com/newsletters-only/you-make-me-laugh/"&gt;crosswalk.com&lt;/a&gt;.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Fri, 08 Feb 2013 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:localhost:8000,2013-02-08:2013/02/tips-voor-aspiring-pilots/</guid></item><item><title>Now</title><link>http://localhost:8000/2013/01/now/</link><description>&lt;p&gt;Yesterday is closed, finished, done. Nothing can be changed about what is passed. Whatever has happened stays happened. Forever. Only our memories can change. And they &lt;em&gt;will&lt;/em&gt; change, that&amp;#8217;s for sure. Because every time we revisit a memory we are in fact &lt;em&gt;re-creating&lt;/em&gt; it, &lt;em&gt;re-shaping&lt;/em&gt; it, changing&amp;nbsp;it.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Fri, 08 Feb 2013 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:mindinthecloud.github.io,2013-02-08:2013/02/tips-voor-aspiring-pilots/</guid></item><item><title>Now</title><link>https://mindinthecloud.github.io/2013/01/now/</link><description>&lt;p&gt;Yesterday is closed, finished, done. Nothing can be changed about what is passed. Whatever has happened stays happened. Forever. Only our memories can change. And they &lt;em&gt;will&lt;/em&gt; change, that&amp;#8217;s for sure. Because every time we revisit a memory we are in fact &lt;em&gt;re-creating&lt;/em&gt; it, &lt;em&gt;re-shaping&lt;/em&gt; it, changing&amp;nbsp;it.&lt;/p&gt;
 &lt;p&gt;Tomorrow is uncertain. What we &amp;#8216;know for sure&amp;#8217; about tomorrow is nothing more than an extrapolation of our past experiences. Which are uncertain by themselves, since our memories are volatile and&amp;nbsp;unreliable.&lt;/p&gt;
 &lt;blockquote&gt;
 Yesterday is a memory, tomorrow is a dream; today is a gift, that&amp;#8217;s why it&amp;#8217;s called &amp;#8220;present&amp;#8221;.&lt;/blockquote&gt;
@@ -262,7 +262,7 @@ Yesterday is a memory, tomorrow is a dream; today is a gift, that&amp;#8217;s wh
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/blockquote&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Mon, 28 Jan 2013 21:30:00 +0100</pubDate><guid isPermaLink="false">tag:localhost:8000,2013-01-28:2013/01/now/</guid><category>quotes</category></item><item><title>Every successful enterprise requires three men…</title><link>http://localhost:8000/2013/01/Every_successful_enterprise_requires_three_men/</link><description>&lt;!--  --&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Mon, 28 Jan 2013 21:30:00 +0100</pubDate><guid isPermaLink="false">tag:mindinthecloud.github.io,2013-01-28:2013/01/now/</guid><category>quotes</category></item><item><title>Every successful enterprise requires three men…</title><link>https://mindinthecloud.github.io/2013/01/Every_successful_enterprise_requires_three_men/</link><description>&lt;!--  --&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;Every successful enterprise requires three men - a
 dreamer, a businessman and a son-of-a-bitch&amp;#8221; -Peter&amp;nbsp;MacArthur&lt;/p&gt;
@@ -291,4 +291,4 @@ If you cannot solve the problem you can still make good money by
 prolonging it.&lt;/blockquote&gt;
 &lt;p&gt;Still in many organisations external consultants are far better paid than
 regular&amp;nbsp;staff.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Sat, 26 Jan 2013 11:20:00 +0100</pubDate><guid isPermaLink="false">tag:localhost:8000,2013-01-26:2013/01/Every_successful_enterprise_requires_three_men/</guid><category>quotes</category></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rick Veenstra</dc:creator><pubDate>Sat, 26 Jan 2013 11:20:00 +0100</pubDate><guid isPermaLink="false">tag:mindinthecloud.github.io,2013-01-26:2013/01/Every_successful_enterprise_requires_three_men/</guid><category>quotes</category></item></channel></rss>

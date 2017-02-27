@@ -155,59 +155,7 @@ rick@ender ~/Documents/ $ &lt;span class="nb"&gt;source&lt;/span&gt; bin/activat
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;You now have a basic Pelican install to work with. The rest is just a matter of choosing your hosting option and read the fine manuals on &lt;a class="reference external" href="http://getpelican.com"&gt;getpelican.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;That&amp;#8217;s all&amp;nbsp;folks!&lt;/p&gt;
-</summary><category term="blog"></category><category term="tech"></category></entry><entry><title>What is a ‘smart’ device?</title><link href="https://mindinthecloud.github.io/2014/09/what-is-a-smart-device/" rel="alternate"></link><published>2014-09-09T00:00:00+02:00</published><author><name>Rick Veenstra</name></author><id>tag:mindinthecloud.github.io,2014-09-09:2014/09/what-is-a-smart-device/</id><summary type="html">&lt;p&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;This hospital bed is equipped with a smart device that stores all the
-patient&amp;#8217;s data.&amp;#8221; Just a phrase in a discussion about an imaginary
-case of interconnected devices, also know as &lt;em&gt;&amp;#8216;The Internet of Things&amp;#8217;&lt;/em&gt;.
-This made me wonder: what is a &amp;#8216;Smart&amp;nbsp;Device&amp;#8217;?&lt;/p&gt;
-&lt;p&gt;In this article I&amp;#8217;ll try to create some clarity around this&amp;nbsp;concept.&lt;/p&gt;
-&lt;p&gt;From the context one thing was clear: a smart device is just a &amp;#8216;thing&amp;#8217;
-in the internet of things. A just slightly funny game of words that adds
-little to a better understanding of the concept. But the context of
-&amp;#8216;internet&amp;#8217; provides us at least with a first question to&amp;nbsp;answer.&lt;/p&gt;
-&lt;dl class="docutils"&gt;
-&lt;dt&gt;&lt;em&gt;Is a &amp;#8216;smart device&amp;#8217; internetworked by&amp;nbsp;itself?&lt;/em&gt;&lt;/dt&gt;
-&lt;dd&gt;Should it have it&amp;#8217;s own &lt;span class="caps"&gt;IP&lt;/span&gt; network&amp;nbsp;stack?&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;p&gt;I tend to answer this by defining a smart device as accessible from the
-internet, be it by it&amp;#8217;s own &lt;span class="caps"&gt;IP&lt;/span&gt; stack or by means of some kind of gateway
-or bridge. This implies that one can transform a &lt;em&gt;&amp;#8216;dumb device&amp;#8217;&lt;/em&gt; into a
-smart one by simply adding some kind of electronic circuitry that
-provides it with an &lt;span class="caps"&gt;IP&lt;/span&gt; network stack. This has been done for far over a
-decade by equipment called &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Terminal_server"&gt;terminal servers&lt;/a&gt;
-(the traditional type, not the kind that made Citrix a big player in the
-corporate world). These devices provided access over &lt;span class="caps"&gt;IP&lt;/span&gt; to equipment that only had serial
-interfaces conforming to standards like &lt;a class="reference external" href="https://en.wikipedia.org/wiki/RS-232"&gt;&lt;span class="caps"&gt;RS&lt;/span&gt;-232&lt;/a&gt;
-or &lt;a class="reference external" href="https://en.wikipedia.org/wiki/RS-422"&gt;&lt;span class="caps"&gt;RS&lt;/span&gt;-422&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;With only this definition a simple sensor &amp;#8212;like a thermometer&amp;#8212;
-equipped with a serial interface and connected to a &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Terminal_server"&gt;terminal server&lt;/a&gt;
-would qualify as a &amp;#8216;smart device&amp;#8217;. We need to add another&amp;nbsp;aspect.&lt;/p&gt;
-&lt;dl class="docutils"&gt;
-&lt;dt&gt;&lt;em&gt;What makes a device&amp;nbsp;&amp;#8216;smart&amp;#8217;?&lt;/em&gt;&lt;/dt&gt;
-&lt;dd&gt;&amp;#8230;besides being&amp;nbsp;internetworked?&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;p&gt;For this aspect I would like to add two characteristics for a device to
-qualify as being&amp;nbsp;&amp;#8216;smart&amp;#8217;:&lt;/p&gt;
-&lt;!-- #. it has to be able to store information that can be retrieved *upon request*. --&gt;
-&lt;ol class="arabic simple"&gt;
-&lt;li&gt;its functionality can be changed without any physical&amp;nbsp;contact&lt;/li&gt;
-&lt;li&gt;its functionality can be extended or modified beyond what was previously&amp;nbsp;available&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Take for instance an &lt;span class="caps"&gt;IP&lt;/span&gt;-connected videocamera. The functionality of such
-a device can be modified, by nature the &lt;span class="caps"&gt;IP&lt;/span&gt; network stack at least. Maybe
-the focus can be adjusted as well, or it can tilt and pan on command. But
-I would not qualify is as smart, because its functionality is fixed. At
-least as long as there is no means of remotely loading it with new
-software. If the software code is &amp;#8216;frozen&amp;#8217; in read-only memory and the
-device itself provides no means of altering the code without a physical
-connection I would consider such a device as merely&amp;nbsp;&amp;#8216;programmable&amp;#8217;.&lt;/p&gt;
-&lt;p&gt;A game console on the other hand can very well be considered &amp;#8216;smart&amp;#8217;. It
-is provided with writeable memory that
-can be loaded with functionality (programs) that can be retrieved from a
-remote location. It gets a little slippery here; ane can imagine edge
-cases like game consoles that only accept memory cards but have no
-network stack. But those are not internetworked and are disqualified from
-the &amp;#8216;internet of&amp;nbsp;things&amp;#8217;.&lt;/p&gt;
-</summary><category term="IoT"></category></entry><entry><title>Lessons from Benjamin Zander’s talk on TED 2008</title><link href="https://mindinthecloud.github.io/2013/02/lessons-from-benjamin-zanders-talk-on-ted-2008/" rel="alternate"></link><published>2013-02-09T00:00:00+01:00</published><author><name>Rick Veenstra</name></author><id>tag:mindinthecloud.github.io,2013-02-09:2013/02/lessons-from-benjamin-zanders-talk-on-ted-2008/</id><summary type="html">&lt;p&gt;Benjamin Zander is a world-famous classical orchestra conductor.
+</summary><category term="blog"></category><category term="tech"></category></entry><entry><title>Lessons from Benjamin Zander’s talk on TED 2008</title><link href="https://mindinthecloud.github.io/2013/02/lessons-from-benjamin-zanders-talk-on-ted-2008/" rel="alternate"></link><published>2013-02-09T00:00:00+01:00</published><author><name>Rick Veenstra</name></author><id>tag:mindinthecloud.github.io,2013-02-09:2013/02/lessons-from-benjamin-zanders-talk-on-ted-2008/</id><summary type="html">&lt;p&gt;Benjamin Zander is a world-famous classical orchestra conductor.
 During &lt;a class="reference external" href="http://www.ted.com/talks/benjamin_zander_on_music_and_passion.html"&gt;his talk at &lt;span class="caps"&gt;TED2008&lt;/span&gt; on &amp;#8216;classical music and passion&amp;#8217;&lt;/a&gt; he refers to
 a moment of &amp;#8216;enlightenment&amp;#8217; as I would call&amp;nbsp;it.&lt;/p&gt;
 &lt;blockquote&gt;
