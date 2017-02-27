@@ -81,7 +81,7 @@ Information (&lt;span class="caps"&gt;PII&lt;/span&gt; for&amp;nbsp;short).&lt;/
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;We just created a diagram showing the different roles involved in the use of a &amp;#8216;thing&amp;#8217; in the Internet of Things. A device that gathers data about someone and uses a service to process the data for the owner into something that he percieves as valuable. What at first observation appears to be very simple, evolves into a model in which &lt;em&gt;John Doe performs no less than&lt;/em&gt; &lt;strong&gt;five&lt;/strong&gt; &lt;em&gt;different roles&lt;/em&gt;. And poor John thought he had only bought himself a&amp;nbsp;&amp;#8216;thing&amp;#8217;&amp;#8230;&lt;/p&gt;
 &lt;/div&gt;
-</summary><category term="IoT"></category><category term="Internet of Things"></category><category term="UML"></category></entry><entry><title>a key difference between IoT and IoS</title><link href="https://mindinthecloud.github.io/2016/05/a-key-difference-between-iot-and-ios/" rel="alternate"></link><published>2016-05-07T00:00:00+02:00</published><author><name>Rick Veenstra</name></author><id>tag:mindinthecloud.github.io,2016-05-07:2016/05/a-key-difference-between-iot-and-ios/</id><summary type="html">&lt;p&gt;The buzz around the &amp;#8216;Internet of Things&amp;#8217; is mainly caused because we seem
+</summary><category term="IoT"></category><category term="UML"></category></entry><entry><title>The key overlap and the gap: IoT and IoS</title><link href="https://mindinthecloud.github.io/2016/05/the-key-overlap-and-the-gap-iot-and-ios/" rel="alternate"></link><published>2016-05-07T00:00:00+02:00</published><author><name>Rick Veenstra</name></author><id>tag:mindinthecloud.github.io,2016-05-07:2016/05/the-key-overlap-and-the-gap-iot-and-ios/</id><summary type="html">&lt;p&gt;The buzz around the &amp;#8216;Internet of Things&amp;#8217; is mainly caused because we seem
 to have passed a major tipping point. Cheap to produce Systems-on-a-Chip
 have reached levels of integration and computing power that enable running
 serious functionality combined with a full &lt;span class="caps"&gt;IP&lt;/span&gt; network stack. We&amp;#8217;re facing
@@ -134,28 +134,20 @@ will end and cease to create&amp;nbsp;benefits.&lt;/p&gt;
 service provider. Regardless of rights the provider has establised in
 the terms of service, this value will degrade rapidly over&amp;nbsp;time.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="section" id="conclusion"&gt;
-&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;div class="section" id="the-ios-generates-the-value-of-iot"&gt;
+&lt;h2&gt;The IoS generates the value of&amp;nbsp;IoT&lt;/h2&gt;
 &lt;p&gt;One could consider a &amp;#8216;thing&amp;#8217; in the context of the Internet of Things as
 something that provides one or more services. The consumer of this service
-usually is some other kind of &amp;#8216;service&amp;#8217; in the Internet of&amp;nbsp;Services.&lt;/p&gt;
+usually is some other kind of &amp;#8216;service&amp;#8217; in the Internet of Services. So
+while the device that collects the data (the actual &amp;#8216;thing&amp;#8217; in IoT) may be a
+tangible object one can touch, cherish and throw out of the window, most
+of its value is generated not by the device itself but by the services
+it is connected to: the Internet of Services. Those services have a
+lifespan that is only rather loosely related to the device. It is
+mostly determined by the ways the service provider is able to
+generate monetary benefits from these&amp;nbsp;service.&lt;/p&gt;
 &lt;/div&gt;
-</summary><category term="IoT"></category><category term="Internet of things"></category></entry><entry><title>Installing Pelican</title><link href="https://mindinthecloud.github.io/2016/05/installing-pelican/" rel="alternate"></link><published>2016-05-06T21:20:00+02:00</published><author><name>Rick Veenstra</name></author><id>tag:mindinthecloud.github.io,2016-05-06:2016/05/installing-pelican/</id><summary type="html">&lt;p&gt;Just did a clean install of Pelican on a Linux Mint workstation. I&amp;#8217;ll try to document all the
-steps up to a working site in this&amp;nbsp;article.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rick@ender ~/Documents/ $ mkdir blog
-rick@ender ~/Documents/ $ virtualenv blog
-rick@ender ~/Documents/ $ &lt;span class="nb"&gt;cd&lt;/span&gt; blog/
-rick@ender ~/Documents/ $ &lt;span class="nb"&gt;source&lt;/span&gt; bin/activate
-&lt;span class="o"&gt;(&lt;/span&gt;blog&lt;span class="o"&gt;)&lt;/span&gt;rick@ender ~/Documents/blog $ pip install pelican
-&lt;span class="o"&gt;(&lt;/span&gt;blog&lt;span class="o"&gt;)&lt;/span&gt;rick@ender ~/Documents/blog $ pip install Markdown
-&lt;span class="o"&gt;(&lt;/span&gt;blog&lt;span class="o"&gt;)&lt;/span&gt;rick@ender ~/Documents/blog $ pip install Typogrify
-&lt;span class="o"&gt;(&lt;/span&gt;blog&lt;span class="o"&gt;)&lt;/span&gt;rick@ender ~/Documents/blog $ pelican-quickstart
-&lt;span class="o"&gt;(&lt;/span&gt;blog&lt;span class="o"&gt;)&lt;/span&gt;rick@ender ~/Documents/blog $ git clone --recursive https://github.com/getpelican/pelican-plugins
-&lt;span class="o"&gt;(&lt;/span&gt;blog&lt;span class="o"&gt;)&lt;/span&gt;rick@ender ~/Documents/blog $ git clone --recursive https://github.com/getpelican/pelican-themes ./pelican-themes
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;You now have a basic Pelican install to work with. The rest is just a matter of choosing your hosting option and read the fine manuals on &lt;a class="reference external" href="http://getpelican.com"&gt;getpelican.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;That&amp;#8217;s all&amp;nbsp;folks!&lt;/p&gt;
-</summary><category term="blog"></category><category term="tech"></category></entry><entry><title>Lessons from Benjamin Zander’s talk on TED 2008</title><link href="https://mindinthecloud.github.io/2013/02/lessons-from-benjamin-zanders-talk-on-ted-2008/" rel="alternate"></link><published>2013-02-09T00:00:00+01:00</published><author><name>Rick Veenstra</name></author><id>tag:mindinthecloud.github.io,2013-02-09:2013/02/lessons-from-benjamin-zanders-talk-on-ted-2008/</id><summary type="html">&lt;p&gt;Benjamin Zander is a world-famous classical orchestra conductor.
+</summary><category term="IoT"></category></entry><entry><title>Lessons from Benjamin Zander’s talk on TED 2008</title><link href="https://mindinthecloud.github.io/2013/02/lessons-from-benjamin-zanders-talk-on-ted-2008/" rel="alternate"></link><published>2013-02-09T00:00:00+01:00</published><author><name>Rick Veenstra</name></author><id>tag:mindinthecloud.github.io,2013-02-09:2013/02/lessons-from-benjamin-zanders-talk-on-ted-2008/</id><summary type="html">&lt;p&gt;Benjamin Zander is a world-famous classical orchestra conductor.
 During &lt;a class="reference external" href="http://www.ted.com/talks/benjamin_zander_on_music_and_passion.html"&gt;his talk at &lt;span class="caps"&gt;TED2008&lt;/span&gt; on &amp;#8216;classical music and passion&amp;#8217;&lt;/a&gt; he refers to
 a moment of &amp;#8216;enlightenment&amp;#8217; as I would call&amp;nbsp;it.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -290,7 +282,17 @@ You are either part of the solution or part of the problem.&lt;/blockquote&gt;
 If you cannot solve the problem you can still make good money by
 prolonging it.&lt;/blockquote&gt;
 &lt;p&gt;Still in many organisations external consultants are far better paid than
-regular&amp;nbsp;staff.&lt;/p&gt;
+regular staff. Someone bold (or naieve) enough to know better &amp;#8212;or even worse&amp;#8212;
+exposes the inflated pretentions of a hired &amp;#8216;advisior&amp;#8217; can count on resistance
+and even repercussions. It might be in the form of a bad review in the annual
+&lt;span class="caps"&gt;HR&lt;/span&gt; performance evaluation cyle, promotion to a position of less influence,
+no renewal of his temporary job contract or downright getting&amp;nbsp;fired.&lt;/p&gt;
+&lt;p&gt;The wiser of the kings of old ages new the value of a &amp;#8216;fool&amp;#8217;. Someone who is
+officially appointed to be politically incorrect and critical can stir the beneficial
+effects of (self-)reflection. Which is very beneficial to both the truely valuable advisior
+and the potential victim of a trader in inflated&amp;nbsp;expectations.&lt;/p&gt;
+&lt;p&gt;I plead for a re-institution in any large organisation of the position of &amp;#8216;the fool&amp;#8217;,
+as a counter-force to both lethal complacency to the status quo and unsustainable&amp;nbsp;disruption.&lt;/p&gt;
 </summary><category term="quotes"></category></entry><entry><title>Elk succesvolle onderneming drijft op drie mannen…</title><link href="https://mindinthecloud.github.io/nl/2013/01/Every_successful_enterprise_requires_three_men/" rel="alternate"></link><published>2013-01-26T11:20:00+01:00</published><author><name>Rick Veenstra</name></author><id>tag:mindinthecloud.github.io,2013-01-26:nl/2013/01/Every_successful_enterprise_requires_three_men/</id><summary type="html">&lt;!--  --&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;span class="caps"&gt;RT&lt;/span&gt; &amp;#64;mushyola &amp;#8220;Every successful enterprise requires three men - a
@@ -323,6 +325,12 @@ dan het eigen personeel. Wie het beter denkt te weten of &amp;#8212;erger nog&am
 de pretenties van een externe adviseur aan de kaak stelt, kan rekenen
 op een kritische beoordeling in de jaarlijkse &lt;span class="caps"&gt;HR&lt;/span&gt; cyclus, wordt
 weggepromoveerd of gewoon naar het &lt;span class="caps"&gt;UWV&lt;/span&gt;&amp;nbsp;doorgestuurd.&lt;/p&gt;
-&lt;p&gt;Ik pleit ervoor de functie van de &amp;#8216;joker&amp;#8217; of &amp;#8216;nar&amp;#8217; terug te brengen in
-elke grote&amp;nbsp;organisatie.&lt;/p&gt;
-</summary><category term="quotes"></category></entry></feed>
+&lt;p&gt;De wijzen onder de vroegere koningen kenden de waarde van de &amp;#8216;nar&amp;#8217;. Iemand
+die officieel is aangesteld om politiek incorrect en onpartijdig kritisch
+te zijn kan de  heilzame werking van (zelf-)reflectie aanwakkeren. Wat
+positief kan uitwerken voor zowel de echt waarde-toevoegende externe adviseur
+als voor het potentiële slachtoffer van een handelaar in valse&amp;nbsp;verwachtingen.&lt;/p&gt;
+&lt;p&gt;Ik pleit ervoor om in elke grote organisatie de functie van de &amp;#8216;joker&amp;#8217; of
+&amp;#8216;nar&amp;#8217; terug te brengen, als tegen-kracht tegen zowel dodelijke zelfvoldaanheid
+of apathie als niet vol te houden&amp;nbsp;veranderingsneurose.&lt;/p&gt;
+</summary><category term="citaat"></category></entry></feed>

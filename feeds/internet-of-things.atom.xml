@@ -77,7 +77,7 @@ Information (&lt;span class="caps"&gt;PII&lt;/span&gt; for&amp;nbsp;short).&lt;/
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;We just created a diagram showing the different roles involved in the use of a &amp;#8216;thing&amp;#8217; in the Internet of Things. A device that gathers data about someone and uses a service to process the data for the owner into something that he percieves as valuable. What at first observation appears to be very simple, evolves into a model in which &lt;em&gt;John Doe performs no less than&lt;/em&gt; &lt;strong&gt;five&lt;/strong&gt; &lt;em&gt;different roles&lt;/em&gt;. And poor John thought he had only bought himself a&amp;nbsp;&amp;#8216;thing&amp;#8217;&amp;#8230;&lt;/p&gt;
 &lt;/div&gt;
-</summary><category term="IoT"></category><category term="Internet of Things"></category><category term="UML"></category></entry><entry><title>a key difference between IoT and IoS</title><link href="https://mindinthecloud.github.io/2016/05/a-key-difference-between-iot-and-ios/" rel="alternate"></link><published>2016-05-07T00:00:00+02:00</published><author><name>Rick Veenstra</name></author><id>tag:mindinthecloud.github.io,2016-05-07:2016/05/a-key-difference-between-iot-and-ios/</id><summary type="html">&lt;p&gt;The buzz around the &amp;#8216;Internet of Things&amp;#8217; is mainly caused because we seem
+</summary><category term="IoT"></category><category term="UML"></category></entry><entry><title>The key overlap and the gap: IoT and IoS</title><link href="https://mindinthecloud.github.io/2016/05/the-key-overlap-and-the-gap-iot-and-ios/" rel="alternate"></link><published>2016-05-07T00:00:00+02:00</published><author><name>Rick Veenstra</name></author><id>tag:mindinthecloud.github.io,2016-05-07:2016/05/the-key-overlap-and-the-gap-iot-and-ios/</id><summary type="html">&lt;p&gt;The buzz around the &amp;#8216;Internet of Things&amp;#8217; is mainly caused because we seem
 to have passed a major tipping point. Cheap to produce Systems-on-a-Chip
 have reached levels of integration and computing power that enable running
 serious functionality combined with a full &lt;span class="caps"&gt;IP&lt;/span&gt; network stack. We&amp;#8217;re facing
@@ -130,10 +130,17 @@ will end and cease to create&amp;nbsp;benefits.&lt;/p&gt;
 service provider. Regardless of rights the provider has establised in
 the terms of service, this value will degrade rapidly over&amp;nbsp;time.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="section" id="conclusion"&gt;
-&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;div class="section" id="the-ios-generates-the-value-of-iot"&gt;
+&lt;h2&gt;The IoS generates the value of&amp;nbsp;IoT&lt;/h2&gt;
 &lt;p&gt;One could consider a &amp;#8216;thing&amp;#8217; in the context of the Internet of Things as
 something that provides one or more services. The consumer of this service
-usually is some other kind of &amp;#8216;service&amp;#8217; in the Internet of&amp;nbsp;Services.&lt;/p&gt;
+usually is some other kind of &amp;#8216;service&amp;#8217; in the Internet of Services. So
+while the device that collects the data (the actual &amp;#8216;thing&amp;#8217; in IoT) may be a
+tangible object one can touch, cherish and throw out of the window, most
+of its value is generated not by the device itself but by the services
+it is connected to: the Internet of Services. Those services have a
+lifespan that is only rather loosely related to the device. It is
+mostly determined by the ways the service provider is able to
+generate monetary benefits from these&amp;nbsp;service.&lt;/p&gt;
 &lt;/div&gt;
-</summary><category term="IoT"></category><category term="Internet of things"></category></entry></feed>
+</summary><category term="IoT"></category></entry></feed>
