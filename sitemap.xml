@@ -5,35 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://mindinthecloud.github.io/</loc>
-<lastmod>2017-03-15T19:54:35-00:00</lastmod>
+<lastmod>2017-03-15T20:01:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://mindinthecloud.github.io/categories.html</loc>
-<lastmod>2017-03-15T19:54:35-00:00</lastmod>
+<lastmod>2017-03-15T20:01:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://mindinthecloud.github.io/blog.html</loc>
-<lastmod>2017-03-15T19:54:35-00:00</lastmod>
+<lastmod>2017-03-15T20:01:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://mindinthecloud.github.io/tag.html</loc>
-<lastmod>2017-03-15T19:54:35-00:00</lastmod>
+<lastmod>2017-03-15T20:01:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://mindinthecloud.github.io/categories.html</loc>
-<lastmod>2017-03-15T19:54:35-00:00</lastmod>
+<lastmod>2017-03-15T20:01:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -41,6 +41,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://mindinthecloud.github.io/2017/04/psd2-vs-gdpr-will-we-keep-our-privacy-or-not-two-major-eu-regulations-on-collision-course/</loc>
 <lastmod>2017-04-02T00:00:00+02:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://mindinthecloud.github.io/2017/03/IoT-a-paradigm-shift/</loc>
+<lastmod>2017-03-09T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -89,7 +96,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://mindinthecloud.github.io/category/internet-of-things.html</loc>
-<lastmod>2016-10-20T00:00:00+00:09</lastmod>
+<lastmod>2017-03-09T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -116,8 +123,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://mindinthecloud.github.io/tag/privacy.html</loc>
+<lastmod>2017-03-09T00:00:00+00:09</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://mindinthecloud.github.io/tag/iot.html</loc>
-<lastmod>2016-10-20T00:00:00+00:09</lastmod>
+<lastmod>2017-03-09T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -137,6 +151,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://mindinthecloud.github.io/tag/concepts.html</loc>
+<lastmod>2017-03-09T00:00:00+00:09</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://mindinthecloud.github.io/tag/uml.html</loc>
 <lastmod>2016-10-20T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
@@ -146,6 +167,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://mindinthecloud.github.io/tag/eu-gdpr.html</loc>
 <lastmod>2017-04-02T00:00:00+00:09</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://mindinthecloud.github.io/author/joram-teusink.html</loc>
+<lastmod>2017-03-09T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
