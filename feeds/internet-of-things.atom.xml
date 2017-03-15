@@ -105,7 +105,10 @@ In the world of IoT, the consumer (of a device) is a supplier (of data).&lt;/blo
 &lt;div class="section" id="about-the-authors"&gt;
 &lt;h3&gt;About the&amp;nbsp;authors&lt;/h3&gt;
 &lt;p&gt;&lt;a class="reference external" href="http://jrm.tsnk.nl/"&gt;Joram Teusink&lt;/a&gt; and &lt;a class="reference external" href="https://www.linkedin.com/in/rickveenstra/"&gt;Rick Veenstra&lt;/a&gt; are both Information Security Officers and close&amp;nbsp;friends.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Repost on `teusink.eu&amp;nbsp;&amp;lt;https://www.teusink.eu/2017/03/in-iot-consumer-is-supplier.html&amp;gt;`_&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="#id1"&gt;&lt;span class="problematic" id="id2"&gt;*&lt;/span&gt;&lt;/a&gt;Repost on &lt;a class="reference external" href="https://www.teusink.eu/2017/03/in-iot-consumer-is-supplier.html"&gt;teusink.eu&lt;/a&gt;&amp;nbsp;*&lt;/p&gt;
+&lt;div class="system-message" id="id1"&gt;
+&lt;p class="system-message-title"&gt;System Message: &lt;span class="caps"&gt;WARNING&lt;/span&gt;/2 (&lt;tt class="docutils"&gt;/home/rick/CloudStation/Documents/blog/content/Internet of Things/IoT-a paradigm shift.rst&lt;/tt&gt;, line 150); &lt;em&gt;&lt;a href="#id2"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Inline emphasis start-string without end-string.&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </summary><category term="IoT"></category><category term="privacy"></category><category term="concepts"></category></entry><entry><title>The roles of the owner of an IoT device, expressed in UML</title><link href="https://mindinthecloud.github.io/2016/10/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml/" rel="alternate"></link><published>2016-10-20T00:00:00+02:00</published><author><name>Rick Veenstra</name></author><id>tag:mindinthecloud.github.io,2016-10-20:2016/10/the-roles-of-the-owner-of-an-iot-device-expressed-in-uml/</id><summary type="html">&lt;p&gt;In a previous blog post we mentioned the different roles of the consumer owning an IoT device. In this article we will try to illustrate these roles in &lt;span class="caps"&gt;UML&lt;/span&gt; Use Case diagrams. The Use Case diagram is one of the several types of models that are part of the Unified Modeling Language (see wikipedia). These are used to describe the interactions of actors with a piece of&amp;nbsp;software.&lt;/p&gt;
