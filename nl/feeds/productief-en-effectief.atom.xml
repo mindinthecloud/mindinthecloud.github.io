@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thoughts in the cloud</title><link href="https://mindinthecloud.github.io/nl/" rel="alternate"></link><link href="https://mindinthecloud.github.io/feeds/productief-en-effectief.atom.xml" rel="self"></link><id>https://mindinthecloud.github.io/nl/</id><updated>2017-02-24T00:00:00+01:00</updated><entry><title>Ik vroeg God…</title><link href="https://mindinthecloud.github.io/nl/2017/02/ik_vroeg_god/" rel="alternate"></link><published>2017-02-24T00:00:00+01:00</published><author><name>Rick Veenstra</name></author><id>tag:mindinthecloud.github.io,2017-02-24:nl/2017/02/ik_vroeg_god/</id><summary type="html">&lt;div class="line-block"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thoughts in the cloud - Productief en effectief</title><link href="http://thoughtsinthe.cloud/nl/" rel="alternate"></link><link href="http://thoughtsinthe.cloud/feeds/productief-en-effectief.atom.xml" rel="self"></link><id>http://thoughtsinthe.cloud/nl/</id><updated>2017-02-24T00:00:00+01:00</updated><entry><title>Ik vroeg God…</title><link href="http://thoughtsinthe.cloud/nl/2017/02/ik_vroeg_god/" rel="alternate"></link><published>2017-02-24T00:00:00+01:00</published><updated>2017-02-24T00:00:00+01:00</updated><author><name>Rick Veenstra</name></author><id>tag:thoughtsinthe.cloud,2017-02-24:/nl/2017/02/ik_vroeg_god/</id><summary type="html">&lt;p class="first last"&gt;Ik vroeg God, ik vroeg, ik vroeg, ik vroeg&amp;#8230; en God zei&amp;nbsp;&amp;#8220;nee&amp;#8221;&lt;/p&gt;
+</summary><content type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Ik vroeg God om mijn slechte gewoonte weg te nemen.&lt;/div&gt;
 &lt;div class="line"&gt;God zei: Nee&lt;/div&gt;
 &lt;div class="line"&gt;Die is er niet om door Mij weggenomen te worden&lt;/div&gt;
@@ -36,7 +37,12 @@
 &lt;div class="line"&gt;eindelijk begin je het door te krijgen.&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;(bron onbekend, orginineel via &lt;a class="reference external" href="http://kennythemonk.typepad.com/kenny_moore/2009/07/mystical.html"&gt;Kenny the Monk&lt;/a&gt;)&lt;/p&gt;
-</summary><category term="geloof"></category></entry><entry><title>Het energiefeetje komt niet</title><link href="https://mindinthecloud.github.io/nl/2017/02/het-energiefeetje-komt-niet/" rel="alternate"></link><published>2017-02-07T00:00:00+01:00</published><author><name>Rick Veenstra</name></author><id>tag:mindinthecloud.github.io,2017-02-07:nl/2017/02/het-energiefeetje-komt-niet/</id><summary type="html">&lt;p&gt;Twaalf tips om je eigen energie op peil te&amp;nbsp;houden:&lt;/p&gt;
+</content><category term="geloof"></category></entry><entry><title>Het energiefeetje komt niet</title><link href="http://thoughtsinthe.cloud/nl/2017/02/het-energiefeetje-komt-niet/" rel="alternate"></link><published>2017-02-07T00:00:00+01:00</published><updated>2017-02-07T00:00:00+01:00</updated><author><name>Rick Veenstra</name></author><id>tag:thoughtsinthe.cloud,2017-02-07:/nl/2017/02/het-energiefeetje-komt-niet/</id><summary type="html">&lt;p&gt;Twaalf tips om je eigen energie op peil te&amp;nbsp;houden:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;houd op met proberen anderen te controleren. Er zijn weinig dingen die zoveel energie vreten als
+het proberen anderen zover te krijgen dat ze dingen doen die ze niet&amp;nbsp;willen.&lt;/li&gt;
+&lt;li&gt;Luister zonder te proberen iets op te&amp;nbsp;lossen.&lt;/li&gt;
+&lt;li&gt;Leef je …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Twaalf tips om je eigen energie op peil te&amp;nbsp;houden:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;houd op met proberen anderen te controleren. Er zijn weinig dingen die zoveel energie vreten als
 het proberen anderen zover te krijgen dat ze dingen doen die ze niet&amp;nbsp;willen.&lt;/li&gt;
@@ -56,4 +62,4 @@ Zorg dat de verhouding energie-gevende en energie-vretende activiteiten minimaal
 &lt;/ul&gt;
 &lt;p&gt;met dank aan Dan Rockwell - &lt;a class="reference external" href="http://leadershipfreak.wordpress.com/2013/01/26/12-ways-to-fuel-your-own-fire/"&gt;Leadership&amp;nbsp;Freak&lt;/a&gt;&lt;/p&gt;
 &lt;!--  --&gt;
-</summary><category term="effectivity"></category></entry></feed>
+</content><category term="effectivity"></category></entry></feed>

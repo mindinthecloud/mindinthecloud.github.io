@@ -4,98 +4,98 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://mindinthecloud.github.io/nl/</loc>
-<lastmod>2017-03-15T20:38:03-00:00</lastmod>
+<loc>http://thoughtsinthe.cloud/nl/</loc>
+<lastmod>2017-03-16T20:40:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/nl/categories.html</loc>
-<lastmod>2017-03-15T20:38:03-00:00</lastmod>
+<loc>http://thoughtsinthe.cloud/nl/categories.html</loc>
+<lastmod>2017-03-16T20:40:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/nl/blog.html</loc>
-<lastmod>2017-03-15T20:38:03-00:00</lastmod>
+<loc>http://thoughtsinthe.cloud/nl/blog.html</loc>
+<lastmod>2017-03-16T20:40:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/nl/tag.html</loc>
-<lastmod>2017-03-15T20:38:03-00:00</lastmod>
+<loc>http://thoughtsinthe.cloud/nl/tag.html</loc>
+<lastmod>2017-03-16T20:40:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/nl/categories.html</loc>
-<lastmod>2017-03-15T20:38:03-00:00</lastmod>
+<loc>http://thoughtsinthe.cloud/nl/categories.html</loc>
+<lastmod>2017-03-16T20:40:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/nl/2017/02/ik_vroeg_god/</loc>
+<loc>http://thoughtsinthe.cloud/nl/2017/02/ik_vroeg_god/</loc>
 <lastmod>2017-02-24T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/nl/2017/02/het-energiefeetje-komt-niet/</loc>
+<loc>http://thoughtsinthe.cloud/nl/2017/02/het-energiefeetje-komt-niet/</loc>
 <lastmod>2017-02-07T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/nl/2017/01/Every_successful_enterprise_requires_three_men/</loc>
-<lastmod>2017-01-26T11:20:00+01:00</lastmod>
+<loc>http://thoughtsinthe.cloud/nl/2017/01/Every_successful_enterprise_requires_three_men/</loc>
+<lastmod>2017-01-26T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/nl/category/inspiratie.html</loc>
-<lastmod>2017-01-26T11:20:00+00:09</lastmod>
+<loc>http://thoughtsinthe.cloud/nl/category/inspiratie.html</loc>
+<lastmod>2017-01-26T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/nl/category/productief-en-effectief.html</loc>
+<loc>http://thoughtsinthe.cloud/nl/category/productief-en-effectief.html</loc>
 <lastmod>2017-02-24T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/nl/tag/citaat.html</loc>
-<lastmod>2017-01-26T11:20:00+00:09</lastmod>
+<loc>http://thoughtsinthe.cloud/nl/tag/citaat.html</loc>
+<lastmod>2017-01-26T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/nl/tag/geloof.html</loc>
+<loc>http://thoughtsinthe.cloud/nl/tag/geloof.html</loc>
 <lastmod>2017-02-24T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/nl/tag/effectivity.html</loc>
+<loc>http://thoughtsinthe.cloud/nl/tag/effectivity.html</loc>
 <lastmod>2017-02-07T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mindinthecloud.github.io/nl/author/rick-veenstra.html</loc>
+<loc>http://thoughtsinthe.cloud/nl/author/rick-veenstra.html</loc>
 <lastmod>2017-02-24T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>

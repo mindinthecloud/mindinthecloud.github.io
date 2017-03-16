@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thoughts in the cloud</title><link href="https://mindinthecloud.github.io/nl/" rel="alternate"></link><link href="https://mindinthecloud.github.io/feeds/inspiratie.atom.xml" rel="self"></link><id>https://mindinthecloud.github.io/nl/</id><updated>2017-01-26T11:20:00+01:00</updated><entry><title>Elk succesvolle onderneming drijft op drie mannen…</title><link href="https://mindinthecloud.github.io/nl/2017/01/Every_successful_enterprise_requires_three_men/" rel="alternate"></link><published>2017-01-26T11:20:00+01:00</published><author><name>Rick Veenstra</name></author><id>tag:mindinthecloud.github.io,2017-01-26:nl/2017/01/Every_successful_enterprise_requires_three_men/</id><summary type="html">&lt;!--  --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thoughts in the cloud - Inspiratie</title><link href="http://thoughtsinthe.cloud/nl/" rel="alternate"></link><link href="http://thoughtsinthe.cloud/feeds/inspiratie.atom.xml" rel="self"></link><id>http://thoughtsinthe.cloud/nl/</id><updated>2017-01-26T00:00:00+01:00</updated><entry><title>Elk succesvolle onderneming drijft op drie mannen…</title><link href="http://thoughtsinthe.cloud/nl/2017/01/Every_successful_enterprise_requires_three_men/" rel="alternate"></link><published>2017-01-26T00:00:00+01:00</published><updated>2017-01-26T00:00:00+01:00</updated><author><name>Rick Veenstra</name></author><id>tag:thoughtsinthe.cloud,2017-01-26:/nl/2017/01/Every_successful_enterprise_requires_three_men/</id><summary type="html">&lt;p class="first last"&gt;Volgens Peter MacArthur heeft elke succesvolle onderneming drie (types) mannen nodig: de dromer, de zakenman en de&amp;nbsp;hufter.&lt;/p&gt;
+</summary><content type="html">&lt;!--  --&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;span class="caps"&gt;RT&lt;/span&gt; &amp;#64;mushyola &amp;#8220;Every successful enterprise requires three men - a
 dreamer, a businessman and a son-of-a-bitch&amp;#8221; -Peter&amp;nbsp;MacArthur&lt;/p&gt;
@@ -39,4 +40,4 @@ als voor het potentiële slachtoffer van een handelaar in valse&amp;nbsp;verwach
 &lt;p&gt;Ik pleit ervoor om in elke grote organisatie de functie van de &amp;#8216;joker&amp;#8217; of
 &amp;#8216;nar&amp;#8217; terug te brengen, als tegen-kracht tegen zowel dodelijke zelfvoldaanheid
 of apathie als niet vol te houden&amp;nbsp;veranderingsneurose.&lt;/p&gt;
-</summary><category term="citaat"></category></entry></feed>
+</content><category term="citaat"></category></entry></feed>
